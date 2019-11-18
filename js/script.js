@@ -17,7 +17,13 @@ Version      : 1.0
 		jQuery(".pt-page").mCustomScrollbar();		
 		
 	});
+	// Author Contact Tooltip 
+	$('[data-toggle="tooltip"]').tooltip()
 	
+	// mCustomScrollbar
+	$(window).on("load", function () {
+		$(".sidebar-link").mCustomScrollbar();
+	});
 	// Sidebar Opener
 	$('#menu .mobile-menu-opener').on('click', function (e) {
 		e.preventDefault();

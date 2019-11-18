@@ -7,6 +7,7 @@ $playfair : 'Playfair Display', serif;
 $black: #333333;
 $gray: #9DA1A5;
 $white: #fff;
+$bg-600: #E1E2E6;
 $header-color: #1C1D22;
 $text-color: #6A6B70;
 $yellow: #F9CA2B;
@@ -52,10 +53,12 @@ $shift-distance: 10px !default;
 
 // Responsive Variables
 $xl:'(min-width: 1200px)';
+$lg:'(min-width: 992px)';
+$md:'(min-width: 768px)';
 $laptop-lg: 'only screen and (min-width: 1330px) and (max-width: 1466px)';
 $laptop: 'only screen and (min-width: 1200px) and (max-width: 1466px)';
-$lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
-$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+// $lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+// $md:'only screen and (min-width: 768px) and (max-width: 991px)';
 $xs:'(max-width: 767px)';
 $sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
 $mobile: '(max-width: 575px)';

@@ -227,10 +227,10 @@ Version      : 1.0
   background-color: #ef6078;
   padding: 10px 65px;
   font-size: 24px; }
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 992px) {
     .theme-btn-primary {
       padding: 10px 35px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) {
     .theme-btn-primary {
       padding: 10px 45px; } }
 
@@ -343,7 +343,7 @@ hr {
   margin: 35px 0;
   padding: 0;
   border: none; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) {
     hr {
       margin-top: 25px;
       margin-bottom: 25px; } }
@@ -522,10 +522,10 @@ General Class
     .section-padding {
       padding: 60px;
       padding-right: 50px; } }
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  @media (min-width: 992px) {
     .section-padding {
       padding: 60px 45px; } }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) {
     .section-padding {
       padding: 30px;
       padding-right: 20px; } }
@@ -1527,11 +1527,42 @@ General Class
 /*----------------------------------------*/
 /*  03. Header Area
 /*----------------------------------------*/
-header {
-  background: #1C1D22;
-  position: fixed;
+.sidebar {
+  position: fixed !important;
   width: 336px;
-  border-top: 6px solid #F9CA2B; }
+  height: 100%;
+  display: none;
+  background-color: #1C1D22;
+  border-top: 6px solid #F9CA2B;
+  z-index: 90;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+  @media (min-width: 992px) {
+    .sidebar {
+      position: static;
+      overflow-y: visible;
+      height: auto;
+      display: block; } }
+
+.ra-sidebar {
+  height: 100%;
+  overflow-y: auto;
+  overflow: hidden; }
+  @media (min-width: 992px) {
+    .ra-sidebar {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      height: auto;
+      display: block; } }
+
+.sidebar-link {
+  overflow-y: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh; }
 
 .author-image {
   border: 1px solid #333333;
@@ -1545,7 +1576,7 @@ header {
 .author-name {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 40px; }
+  margin-bottom: 50px; }
   .author-name h3 {
     padding: 20px;
     color: #fff;
@@ -1579,7 +1610,10 @@ header {
   margin: 0;
   text-align: center; }
   .author-contact li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 15px; }
+    .author-contact li:last-child {
+      margin-right: 0; }
     .author-contact li a {
       width: 35px;
       height: 35px;
@@ -1598,6 +1632,21 @@ header {
       transition: 0.3s ease-out; }
       .author-contact li a:hover i {
         color: #F9CA2B; }
+
+.tooltip-inner {
+  width: 140px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background: #E1E2E6;
+  padding: 5px 13px;
+  color: #000;
+  font-family: "Josefin Sans", sans-serif; }
+
+.arrow::before {
+  border-color: #E1E2E6; }
 
 /*================================ About Me ====================================*/
 /*======================================== Resume =============================*/

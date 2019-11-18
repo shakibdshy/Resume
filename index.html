@@ -9,6 +9,8 @@
    <link rel="stylesheet" href="css/fontawesome.min.css">
    <!-- Ionicons icon -->
    <link rel="stylesheet" href="css/ionicons.min.css">
+   <!-- CustomScrollbar CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Bootstrap -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <!-- Animated CSS -->
@@ -19,49 +21,53 @@
 <body>
    <!-- Container -->
    <div class="container-fluid max-w-xl">
-      <div class="row mx-15">
-         <!-- Header Area Start -->
-         <header>
-            <div class="author-image"> <!--Author Image-->
-               <img src="img/author.png" alt="Author">
-            </div><!--Author Image-->
-
-            <div class="author-name"><!--Author Name-->
-               <h3>Oliver <br><span>Heldens</span></h3>
-            </div><!--Author Name-->
-
-            <div class="author-contact"><!--Author Contact Llink-->
-               <ul>
-                  <li><a href="#"><i class="icon ion-md-call"></i></a></li>
-                  <li><a href="#"><i class="icon ion-logo-skype"></i></a></li>  
-                  <li><a href="#"><i class="icon ion-md-mail"></i></a></li>  
-                  <li><a href="#"><i class="icon ion-md-pin"></i></a></li>  
-               </ul>
-            </div> <!--Author Contact Llink-->
-
-            <!-- Menu Area -->
-            <nav>
-               <ul>
-                  <li><a href="#">about me</a></li>
-                  <li><a href="#">portfolio</a></li>
-                  <li><a href="#">services</a></li>
-                  <li><a href="#">contact</a></li>
-               </ul>
-            </nav>
-            <!-- Menu Area -->
-            
-            <div class=""><!-- Header Bottom -->
-               <a href="#" class="btn btn-header">Hire Me</a><!-- Header Buttom -->
-               <ul>
-                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
-               </ul>
-            </div><!-- Header Bottom -->
-            
-         </header>
-         <!-- Header Area End -->
+      <div class="row">
+         <!-- Sidebar Area Start -->
+         <div class="sidebar">
+            <div class="ra-sidebar">
+               <div class="sidebar-link mCustomScrollbar" data-mcs-theme="minimal-dark">
+                  <div class="author-image"> <!--Author Image-->
+                     <img src="img/author.png" alt="Author">
+                  </div><!--Author Image-->
+      
+                  <div class="author-name"><!--Author Name-->
+                     <h3>Oliver <br><span>Heldens</span></h3>
+                  </div><!--Author Name-->
+      
+                  <div class="author-contact"><!--Author Contact Llink-->
+                     <ul>
+                        <li data-toggle="tooltip" data-placement="top" title="123-555-999" class=""><a href="#"><i class="icon ion-md-call"></i></a></li>
+                        <li data-toggle="tooltip" data-placement="top" title="oliver.heldenst" class=""><a href="#"><i class="icon ion-logo-skype"></i></a></li>  
+                        <li data-toggle="tooltip" data-placement="top" title="resume@mail.com" class=""><a href="#"><i class="icon ion-md-mail"></i></a></li>  
+                        <li data-toggle="tooltip" data-placement="top" title="California, CA" class=""><a href="#"><i class="icon ion-md-pin"></i></a></li>  
+                     </ul>
+                  </div> <!--Author Contact Llink-->
+      
+                  <!-- Menu Area -->
+                  <nav>
+                     <ul>
+                        <li><a href="#">about me</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">contact</a></li>
+                     </ul>
+                  </nav>
+                  <!-- Menu Area -->
+                  
+                  <div class=""><!-- Header Bottom -->
+                     <a href="#" class="btn btn-header">Hire Me</a><!-- Header Buttom -->
+                     <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+                     </ul>
+                  </div><!-- Header Bottom -->
+                  
+               </div>
+            </div>
+         </div>
+         <!-- Sidebar Area End -->
          <main>
             <footer></footer>
          </main>
@@ -75,6 +81,8 @@
 
    <!-- Jquery -->
    <script src="js/jquery-3.3.1.min.js"></script>
+   <!-- CustomScrollbar js -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <!-- Popper js -->
    <script src="js/popper.min.js"></script>
    <!-- Bootstrap js -->
