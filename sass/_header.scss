@@ -2,5 +2,17 @@
 /*  03. Header Area
 /*----------------------------------------*/
 header{
-   color: $header-color;
+   background: $header-color;
+   position: fixed;
+   width: 336px;
+   border-top: 6px solid $yellow;
+}
+.author-image{
+   border: 1px solid $black;
+   width: 196px;
+   height: 196px;
+   text-align: center;
+   padding: 16px;
+   margin: auto;
+   margin-top: 50px;
 }
