@@ -1507,7 +1507,8 @@ General Class
   height: 196px;
   text-align: center;
   padding: 16px;
-  margin: auto; }
+  margin: auto;
+  margin-top: 50px; }
 
 .author-name {
   text-align: center;
@@ -1618,6 +1619,16 @@ General Class
       right: 0;
       bottom: 0;
       margin: auto; }
+
+.sidebar-s-link {
+  margin-bottom: 35px; }
+  .sidebar-s-link li {
+    display: inline-block; }
+    .sidebar-s-link li a {
+      font-size: 16px;
+      padding: 15px;
+      color: #6A6B70;
+      display: block; }
 
 /*================================ About Me ====================================*/
 /*======================================== Resume =============================*/

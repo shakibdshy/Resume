@@ -27,6 +27,7 @@
    text-align: center;
    padding: 16px;
    margin: auto;
+   margin-top: 50px;
 }
 .author-name{
    text-align: center; 
@@ -152,6 +153,20 @@
             bottom: 0;
             margin: auto;
          }
+      }
+   }
+}
+
+// Sidebar Social Link
+.sidebar-s-link{
+   margin-bottom: 35px;
+   li{
+      display: inline-block;
+      a{
+         font-size: 16px;
+         padding: 15px;
+         color: $text-color;
+         display: block;
       }
    }
 }
