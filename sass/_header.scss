@@ -68,7 +68,7 @@
 }
 // Author Contact
 .author-contact{
-   margin: 0;
+   margin-bottom: 50px;
    text-align: center;
    li{
       display: inline-block;
@@ -110,6 +110,48 @@
    color: #000;
    font-family: $josefin;
 }
-.arrow::before{
-   border-color: $bg-600;
+
+// Sidebar Menu 
+.sidebar-link{
+   text-align: center;
+   nav{
+      li{
+         position: relative;
+         a{
+            font-size: 14px;
+            color: $text-color;
+            text-transform: uppercase;
+            font-family: $josefin;
+            font-weight: 600;
+            padding-top: 15px;
+            padding-bottom: 9px;
+            display: block;
+            @include property;
+            &:hover{
+               color: $yellow;
+            }
+         }
+         &::before{
+            position: absolute;
+            content: '';
+            width: 195px;
+            height: 1px;
+            background: $black;
+            left: 0;
+            right: 0;
+            margin: auto;
+         }
+         &:last-child::after{
+            position: absolute;
+            content: '';
+            width: 195px;
+            height: 1px;
+            background: $black;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+         }
+      }
+   }
 }

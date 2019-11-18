@@ -1588,7 +1588,7 @@ General Class
       border-right: 1px solid #F9CA2B; }
 
 .author-contact {
-  margin: 0;
+  margin-bottom: 50px;
   text-align: center; }
   .author-contact li {
     display: inline-block;
@@ -1626,8 +1626,43 @@ General Class
   color: #000;
   font-family: "Josefin Sans", sans-serif; }
 
-.arrow::before {
-  border-color: #E1E2E6; }
+.sidebar-link {
+  text-align: center; }
+  .sidebar-link nav li {
+    position: relative; }
+    .sidebar-link nav li a {
+      font-size: 14px;
+      color: #6A6B70;
+      text-transform: uppercase;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-bottom: 9px;
+      display: block;
+      -webkit-transition: 0.3s ease-out;
+      -o-transition: 0.3s ease-out;
+      transition: 0.3s ease-out; }
+      .sidebar-link nav li a:hover {
+        color: #F9CA2B; }
+    .sidebar-link nav li::before {
+      position: absolute;
+      content: '';
+      width: 195px;
+      height: 1px;
+      background: #333333;
+      left: 0;
+      right: 0;
+      margin: auto; }
+    .sidebar-link nav li:last-child::after {
+      position: absolute;
+      content: '';
+      width: 195px;
+      height: 1px;
+      background: #333333;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
 
 /*================================ About Me ====================================*/
 /*======================================== Resume =============================*/
