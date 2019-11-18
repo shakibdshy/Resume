@@ -173,7 +173,7 @@ $massage	: "\f4ad";
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: $theme-color;
+		background: $black;
 		@include prefixed(transform, scaleY(0));
 		@include prefixed(transform-origin, 50% 0);
 		@include prefixed(transition-property, transform);

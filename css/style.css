@@ -25,7 +25,7 @@ Version      : 1.0
   background-color: #fff; }
 
 [data-overlay="dark"]::before {
-  background-color: #1c1d68; }
+  background-color: #333333; }
 
 /*-- Overlay Opacity --*/
 [data-opacity="1"]::before {
@@ -131,7 +131,7 @@ Version      : 1.0
     left: 0;
     right: 0;
     bottom: 0;
-    background: #1c1d68;
+    background: #333333;
     -webkit-transform: scaleY(0);
     -ms-transform: scaleY(0);
     transform: scaleY(0);
@@ -348,40 +348,40 @@ hr {
       margin-bottom: 25px; } }
 
 label {
-  color: #1c1d68;
+  color: #333333;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400; }
 
 *::-moz-selection {
-  background: #1c1d68;
+  background: #333333;
   text-shadow: none; }
 
 ::-moz-selection {
-  background: #1c1d68;
+  background: #333333;
   text-shadow: none; }
 
 ::selection {
-  background: #1c1d68;
+  background: #333333;
   text-shadow: none; }
 
 /*--
     - Input Placeholder
 -----------------------------------------*/
 .footer-email input::-moz-placeholder {
-  color: #1c1d68; }
+  color: #333333; }
 
 .footer-email input::-webkit-input-placeholder {
-  color: #1c1d68; }
+  color: #333333; }
 
 .footer-email input:-ms-input-placeholder {
-  color: #1c1d68; }
+  color: #333333; }
 
 .footer-email input::-ms-input-placeholder {
-  color: #1c1d68; }
+  color: #333333; }
 
 .footer-email input::placeholder {
-  color: #1c1d68; }
+  color: #333333; }
 
 /*================================ Pre Loader ====================================*/
 .preloader {
@@ -464,7 +464,7 @@ label {
     - Background color
 -----------------------------------------*/
 .theme-bg {
-  background: #1c1d68; }
+  background: #333333; }
 
 .btn-black {
   background: #333333; }
@@ -473,7 +473,7 @@ label {
     - color
 -----------------------------------------*/
 .theme-color {
-  color: #1c1d68; }
+  color: #333333; }
 
 .white-color {
   color: #fff; }
@@ -502,7 +502,7 @@ label {
 .btn-1b:hover,
 .btn-1b:active {
   color: #0e83cd;
-  background: #1c1d68; }
+  background: #333333; }
 
 .btn-1b:hover:after,
 .btn-1b:active:after {

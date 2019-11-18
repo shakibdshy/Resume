@@ -101,21 +101,21 @@ hr {
 	}
 }
 label {
-	color: $theme-color;
+	color: $black;
 	cursor: pointer;
 	font-size: 14px;
 	font-weight: 400;
 }
 *::-moz-selection {
-	background: $theme-color;
+	background: $black;
 	text-shadow: none;
 }
 ::-moz-selection {
-	background: $theme-color;
+	background: $black;
 	text-shadow: none;
 }
 ::selection {
-	background: $theme-color;
+	background: $black;
 	text-shadow: none;
 }
 
@@ -123,10 +123,10 @@ label {
     - Input Placeholder
 -----------------------------------------*/
 .footer-email input::-moz-placeholder {
-	color: $theme-color;
+	color: $black;
 }
 .footer-email input::placeholder {
-	color: $theme-color;
+	color: $black;
 }
 
 /*================================ Pre Loader ====================================*/
@@ -232,7 +232,7 @@ label {
 -----------------------------------------*/
 
 .theme-bg {
-	background: $theme-color;
+	background: $black; 
 }
 .btn-black {
 	background: $black;
@@ -244,7 +244,7 @@ label {
 -----------------------------------------*/
 
 .theme-color {
-	color: $theme-color;
+	color: $black;
 }
 .white-color{
 	color: $white;
@@ -290,7 +290,7 @@ label {
 .btn-1b:hover,
 .btn-1b:active {
 	color: #0e83cd;
-	background: $theme-color;
+	background: $black;
 }
 
 .btn-1b:hover:after,
