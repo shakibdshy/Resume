@@ -228,9 +228,6 @@ label {
 .theme-bg {
 	background: $black; 
 }
-.btn-black {
-	background: $black;
-}
 
 
 /*--
@@ -254,12 +251,8 @@ label {
 .btn{
 	@extend %btn;
 }
-.theme-btn{
-	@extend %theme-btn;
-}
-.theme-btn-primary {
-	@extend %theme-btn-primary;
-}
+
+
 /* Button 1 */
 .btn:after {
 	content: '';
@@ -269,8 +262,8 @@ label {
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.btn-1 {
-	
+.btn-1, .btn-1b {
+	background: $black;
 }
 /* Button 1b */
 .btn-1b:after {
@@ -283,8 +276,8 @@ label {
 
 .btn-1b:hover,
 .btn-1b:active {
-	color: #0e83cd;
-	background: $black;
+	color: $white;
+	background: $yellow;
 }
 
 .btn-1b:hover:after,
@@ -292,7 +285,7 @@ label {
 	height: 100%;
 }
 .btn-1b:hover, .btn-1b:active {
-	color: #0e83cd;
+	color: $black;
 }
 .btn-1b:hover::after, .btn-1b:active::after {
 	height: 100%;
@@ -300,36 +293,7 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
-.section-title {
-	@extend %section-title;
-}
 
-.title-text {
-	@extend %title-text;
-}
-.section-padding{
-   padding: {
-		top: 150px;
-		bottom: 150px;
-		left: 100px;
-		right: 90px;
-	};
-   @media #{$laptop} {
-		padding: 60px;
-		padding-right: 50px;
-   }
-   @media #{$lg} {
-      padding: 60px 45px;
-   }
-   @media #{$md} {
-		padding: 30px;
-		padding-right: 20px;
-   }
-   @media #{$xs} {
-		padding: 30px;
-		padding-right: 20px;
-   }
-}
 /*--
     - Margin & Padding
 -----------------------------------------*/

@@ -209,42 +209,18 @@ Version      : 1.0
 /* Button Background Style */
 .btn {
   display: inline-block;
-  padding: 18px 48px;
+  padding: 17px 68px 15px;
   background-color: transparent;
-  font-size: 18px;
-  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
   border-radius: 0;
   outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s; }
-
-.theme-btn {
-  border: 2px solid #fff; }
-
-.theme-btn-primary {
-  background-color: #ef6078;
-  padding: 10px 65px;
-  font-size: 24px; }
-  @media (min-width: 992px) {
-    .theme-btn-primary {
-      padding: 10px 35px; } }
-  @media (min-width: 768px) {
-    .theme-btn-primary {
-      padding: 10px 45px; } }
-
-.section-title {
-  position: relative;
-  margin-bottom: 35px; }
-
-.title-text {
-  position: absolute;
-  top: 45px;
-  left: 55px; }
-  .title-text h2 {
-    line-height: 50px;
-    margin: 0; }
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
 
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -461,9 +437,6 @@ label {
 .theme-bg {
   background: #333333; }
 
-.btn-black {
-  background: #333333; }
-
 /*--
     - color
 -----------------------------------------*/
@@ -486,6 +459,9 @@ label {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
+.btn-1, .btn-1b {
+  background: #333333; }
+
 /* Button 1b */
 .btn-1b:after {
   width: 100%;
@@ -496,8 +472,8 @@ label {
 
 .btn-1b:hover,
 .btn-1b:active {
-  color: #0e83cd;
-  background: #333333; }
+  color: #fff;
+  background: #F9CA2B; }
 
 .btn-1b:hover:after,
 .btn-1b:active:after {
@@ -505,7 +481,7 @@ label {
 
 .btn-1b:hover,
 .btn-1b:active {
-  color: #0e83cd; }
+  color: #333333; }
 
 .btn-1b:hover::after, .btn-1b:active::after {
   height: 100%; }
@@ -513,27 +489,6 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
-.section-padding {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 100px;
-  padding-right: 90px; }
-  @media only screen and (min-width: 1200px) and (max-width: 1466px) {
-    .section-padding {
-      padding: 60px;
-      padding-right: 50px; } }
-  @media (min-width: 992px) {
-    .section-padding {
-      padding: 60px 45px; } }
-  @media (min-width: 768px) {
-    .section-padding {
-      padding: 30px;
-      padding-right: 20px; } }
-  @media (max-width: 767px) {
-    .section-padding {
-      padding: 30px;
-      padding-right: 20px; } }
-
 /*--
     - Margin & Padding
 -----------------------------------------*/
