@@ -102,7 +102,7 @@ Version      : 1.0
     transition-timing-function: ease-out; }
   .hvr-border-bottom:hover, .hvr-border-bottom:focus, .hvr-border-bottom:active {
     color: white;
-    border: 2px solid #ef6078; }
+    border: 2px solid; }
     .hvr-border-bottom:hover:before, .hvr-border-bottom:focus:before, .hvr-border-bottom:active:before {
       -webkit-transform: scaleY(1);
       -ms-transform: scaleY(1);
@@ -116,7 +116,7 @@ Version      : 1.0
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  border: 2px solid #ef6078;
+  border: 2px solid;
   -webkit-transition-property: color;
   -o-transition-property: color;
   transition-property: color;
@@ -448,6 +448,9 @@ label {
 /*--
     - Common Classes
 -----------------------------------------*/
+.max-w-xl {
+  max-width: 1920px; }
+
 /*--
     - Font Famaly
 -----------------------------------------*/
@@ -488,11 +491,6 @@ label {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-.btn-1 {
-  border: 3px solid #ef6078;
-  background: #ef6078;
-  color: #fff; }
-
 /* Button 1b */
 .btn-1b:after {
   width: 100%;
@@ -504,8 +502,7 @@ label {
 .btn-1b:hover,
 .btn-1b:active {
   color: #0e83cd;
-  background: #1c1d68;
-  border: 3px solid #ef6078; }
+  background: #1c1d68; }
 
 .btn-1b:hover:after,
 .btn-1b:active:after {
@@ -1531,6 +1528,12 @@ General Class
 
 .pr-200 {
   padding-right: 200px; }
+
+/*----------------------------------------*/
+/*  03. Header Area
+/*----------------------------------------*/
+header {
+  color: #1C1D22; }
 
 /*================================ About Me ====================================*/
 /*======================================== Resume =============================*/

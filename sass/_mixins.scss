@@ -150,7 +150,7 @@ $massage	: "\f4ad";
 	&:focus,
 	&:active {
 		color: white;
-		border: 2px solid $red;
+		border: 2px solid;
 		&:before {
 			@include prefixed(transform, scaleY(1));
 		}
@@ -161,7 +161,7 @@ $massage	: "\f4ad";
 @mixin bottom {
 	@include hacks();
 	position: relative;
-	border: 2px solid $red;
+	border: 2px solid; 
 	@include prefixed(transition-property, color);
 	@include prefixed(transition-duration, $mediumDuration);
 
