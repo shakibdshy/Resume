@@ -3,13 +3,13 @@
 /*----------------------------------------*/
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,600,600i,700,700i|Lora:400,700,700i|Playfair+Display:400,700&display=swap');
 body {
-	font-family: $poppins;
+	font-family: $playfair;
 	font-weight: 400;
-	color:$white; 
+	color: $gray; 
 	font-size: 16px;
-	line-height: 34px;
+	line-height: 26px;
 
 }
 .img,img {
@@ -50,7 +50,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: 700; 
+	font-family: $josefin;
+	font-weight: 600; 
 }
 h1 a,
 h2 a,
@@ -68,10 +69,10 @@ h2 {
 	font-size: 48px;
 }
 h3 {
-	font-size: 28px;
+	font-size: 36px;
 }
 h4 {
-	font-size: 18px;
+	font-size: 26px;
 }
 h5 {
 	font-size: 17px;
@@ -212,13 +213,6 @@ label {
 -----------------------------------------*/
 .max-w-xl{
 	max-width: 1920px;
-}
-
-/*--
-    - Font Famaly
------------------------------------------*/
-.poppins{
-	font-family: $poppins;
 }
 
 // Menu Area
