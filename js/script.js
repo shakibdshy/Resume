@@ -22,7 +22,7 @@ Version      : 1.0
 	
 	// mCustomScrollbar
 	$(window).on("load", function () {
-		$(".sidebar-link").mCustomScrollbar();
+		$(".sidebar").mCustomScrollbar();
 	});
 	// Sidebar Opener
 	$('#menu .mobile-menu-opener').on('click', function (e) {
