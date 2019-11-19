@@ -60,6 +60,11 @@
    position: absolute;
    background: $text-color;
    bottom: 0;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
 }
 
 .skill-bar {
@@ -68,6 +73,11 @@
    background: $white;
    display: block;
    position: relative;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
 }
 
 /* SKILL 1 */

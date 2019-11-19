@@ -1699,14 +1699,24 @@ General Class
   display: block;
   position: absolute;
   background: #6A6B70;
-  bottom: 0; }
+  bottom: 0;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px; }
 
 .skill-bar {
   width: 100%;
   height: 5px;
   background: #fff;
   display: block;
-  position: relative; }
+  position: relative;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px; }
 
 /* SKILL 1 */
 .skill1 {
