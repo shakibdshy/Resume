@@ -293,7 +293,27 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
-
+.perspective{
+	width: 1584px;
+	height: 100vh;
+	margin-left: 336px;
+	@media #{$lg}{
+		
+	}
+	@media #{$xl} {
+		
+	}
+}
+.section-wrapper {
+	padding: 50px;
+	@media #{$desktop}{
+		padding: 150px;
+	}
+}
+.title{
+	text-transform: uppercase;
+	color: $yellow;
+}
 /*--
     - Margin & Padding
 -----------------------------------------*/

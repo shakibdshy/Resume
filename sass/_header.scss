@@ -1,11 +1,10 @@
 /*----------------------------------------*/
 /*  03. Header Area
 /*----------------------------------------*/
+
 .sidebar{
    position: fixed !important;
    width: 336px;
-   height: 100%;
-   display: none;
    background-color: $header-color;
    border-top: 6px solid $yellow;
    z-index: 90;
@@ -170,3 +169,4 @@
       }
    }
 }
+

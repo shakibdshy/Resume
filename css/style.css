@@ -489,6 +489,21 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
+.perspective {
+  width: 1584px;
+  height: 100vh;
+  margin-left: 336px; }
+
+.section-wrapper {
+  padding: 50px; }
+  @media (min-width: 1367px) {
+    .section-wrapper {
+      padding: 150px; } }
+
+.title {
+  text-transform: uppercase;
+  color: #F9CA2B; }
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -1485,8 +1500,6 @@ General Class
 .sidebar {
   position: fixed !important;
   width: 336px;
-  height: 100%;
-  display: none;
   background-color: #1C1D22;
   border-top: 6px solid #F9CA2B;
   z-index: 90;
@@ -1630,7 +1643,9 @@ General Class
       color: #6A6B70;
       display: block; }
 
-/*================================ About Me ====================================*/
+/*----------------------------------------*/
+/*  04. About Area
+/*----------------------------------------*/
 /*======================================== Resume =============================*/
 /*================================ Portfolio Section ====================================*/
 /*================================ Blog Section ====================================*/
