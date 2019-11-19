@@ -1,7 +1,7 @@
 /* Button Background Style */
 %btn{
     display: inline-block;
-    padding: 17px 68px 15px;
+    padding: 17px 40px 15px;
     background-color: transparent;
     font-family: $josefin;
     text-transform: uppercase;
@@ -11,4 +11,7 @@
     border-radius: 0;
     outline: none;
     @include property;
+}
+%border-btn{
+    border: 1px solid $black;
 }

@@ -251,7 +251,9 @@ label {
 .btn{
 	@extend %btn;
 }
-
+.btn-border{
+	@extend %border-btn;
+}
 
 /* Button 1 */
 .btn:after {
@@ -306,6 +308,7 @@ General Class
 }
 .section-wrapper {
 	padding: 50px;
+	height: 100vh;
 	@media #{$desktop}{
 		padding: 150px;
 	}
@@ -313,6 +316,7 @@ General Class
 .title{
 	text-transform: uppercase;
 	color: $yellow;
+	margin-bottom: 30px;
 }
 /*--
     - Margin & Padding

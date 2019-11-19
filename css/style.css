@@ -209,7 +209,7 @@ Version      : 1.0
 /* Button Background Style */
 .btn {
   display: inline-block;
-  padding: 17px 68px 15px;
+  padding: 17px 40px 15px;
   background-color: transparent;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
@@ -221,6 +221,9 @@ Version      : 1.0
   -webkit-transition: 0.3s ease-out;
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out; }
+
+.btn-border {
+  border: 1px solid #333333; }
 
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -495,14 +498,16 @@ General Class
   margin-left: 336px; }
 
 .section-wrapper {
-  padding: 50px; }
+  padding: 50px;
+  height: 100vh; }
   @media (min-width: 1367px) {
     .section-wrapper {
       padding: 150px; } }
 
 .title {
   text-transform: uppercase;
-  color: #F9CA2B; }
+  color: #F9CA2B;
+  margin-bottom: 30px; }
 
 /*--
     - Margin & Padding
@@ -1646,6 +1651,25 @@ General Class
 /*----------------------------------------*/
 /*  04. About Area
 /*----------------------------------------*/
+.about-content li {
+  line-height: 32px;
+  font-family: "Josefin Sans", sans-serif; }
+  .about-content li i {
+    color: #F9CA2B;
+    margin-right: 10px;
+    font-size: 12px; }
+
+.about-content p {
+  margin-bottom: 22px; }
+
+.about-button {
+  margin-top: 30px; }
+  .about-button a {
+    margin-right: 25px; }
+    .about-button a.btn-1b {
+      background: #F9CA2B !important;
+      color: #000000; }
+
 /*======================================== Resume =============================*/
 /*================================ Portfolio Section ====================================*/
 /*================================ Blog Section ====================================*/

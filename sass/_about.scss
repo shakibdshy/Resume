@@ -1,5 +1,29 @@
 /*----------------------------------------*/
 /*  04. About Area
 /*----------------------------------------*/
+.about-content{
+   li{
+      line-height: 32px;
+      font-family: $josefin;
+      i{
+         color: $yellow;
+         margin-right: 10px;
+         font-size: 12px;
+      }
+   }
+   p{
+      margin-bottom: 22px;
+   }
+}
+.about-button{
+   margin-top: 30px;
+   a{
+      margin-right: 25px;
+      &.btn-1b{
+         background: $yellow !important;
+         color: #000000;
+      }
 
+   }
+}
 
