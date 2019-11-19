@@ -1794,6 +1794,43 @@ General Class
 .skill6 .skill-count6 {
   right: 0; }
 
+/*----------------------------------------*/
+/*  06. Education Area
+/*----------------------------------------*/
+.education-area p {
+  width: 64%; }
+
+.edu-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.edu-date {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 35px;
+  position: relative; }
+  .edu-date::before {
+    position: absolute;
+    content: ''; }
+
+.edu-content {
+  border: 1px solid #6A6B70;
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px; }
+  .edu-content h4 {
+    color: #F9CA2B;
+    font-size: 22px; }
+  .edu-content span {
+    color: #fff; }
+  .edu-content p {
+    width: 100%;
+    color: #6A6B70;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0;
+    margin-top: 10px; }
+
 /*======================================== Resume =============================*/
 /*================================ Portfolio Section ====================================*/
 /*================================ Blog Section ====================================*/

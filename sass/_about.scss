@@ -103,7 +103,7 @@
 .skill-count3,
 .skill-count4,
 .skill-count5,
-.skill-count6, {
+.skill-count6 {
    position: relative;
    &::before{
       position: absolute;
@@ -166,3 +166,54 @@
 .skill6 .skill-count6 {
    right: 0;
 }
+
+/*----------------------------------------*/
+/*  06. Education Area
+/*----------------------------------------*/
+.education-area{
+   p{
+      width: 64%;
+   }
+}
+.edu-inner{
+   display: flex;
+}
+.edu-date{
+   color: $white;
+   font-size: 18px;
+   margin-right: 35px;
+   position: relative;
+   &::before{
+      position: absolute;
+      content: '';
+      
+   }
+}
+// .devider {
+//    width: 3px;
+//    height: 200px;
+//    background: #38383B;
+// }
+.edu-content{
+   border: 1px solid $text-color;
+   padding: 30px; 
+   margin-left: 30px;
+   margin-bottom: 30px;
+   h4{
+      color: $yellow;
+      font-size: 22px;
+   }
+   span{
+      color: $white;
+   }
+   p{
+      width: 100%;
+      color: $text-color;
+      font-family: $josefin;
+      margin-bottom: 0;
+      margin-top: 10px;
+   }
+}
+
+
+
