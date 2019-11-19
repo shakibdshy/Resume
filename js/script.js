@@ -24,6 +24,7 @@ Version      : 1.0
 	$(window).on("load", function () {
 		$(".sidebar").mCustomScrollbar();
 	});
+
 	// Sidebar Opener
 	$('#menu .mobile-menu-opener').on('click', function (e) {
 		e.preventDefault();
@@ -66,6 +67,9 @@ Version      : 1.0
 		}
 	});
 
+	// Skill Area 
+	new WOW().init();
+
 	// Portfolio Filter 
 	jQuery('#filter-list button').on("click", function () {
 		jQuery('#filter-list button').removeClass('active');
@@ -88,13 +92,5 @@ Version      : 1.0
 		wow.init();
 	}
 		
-
-	// Preload
-	function preloader(){
-		jQuery(".preloaderimg").fadeOut();
-		jQuery(".preloader").delay(200).fadeOut("slow").delay(200, function(){
-			jQuery(this).remove();
-		});
-	}
 	
 })(jQuery);	

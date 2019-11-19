@@ -308,7 +308,7 @@ General Class
 }
 .section-wrapper {
 	padding: 50px;
-	height: 100vh;
+	height: auto;
 	@media #{$desktop}{
 		padding: 150px;
 	}
