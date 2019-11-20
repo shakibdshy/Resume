@@ -230,7 +230,7 @@ Version      : 1.0
   .section-title h3 {
     text-transform: uppercase;
     color: #F9CA2B;
-    margin-bottom: 30px; }
+    margin-bottom: 5px; }
   .section-title p {
     width: 64%;
     line-height: 26px;
@@ -509,16 +509,25 @@ General Class
   margin-left: 336px; }
 
 .section-wrapper {
-  padding: 50px;
+  padding: 70px;
   height: auto; }
   @media (min-width: 1367px) {
     .section-wrapper {
       padding: 150px; } }
 
+.skill-area,
+.education-area,
+.languages-area {
+  padding-top: 65px; }
+  @media (min-width: 1367px) {
+    .skill-area,
+    .education-area,
+    .languages-area {
+      padding-top: 150px; } }
+
 .title {
   text-transform: uppercase;
-  color: #F9CA2B;
-  margin-bottom: 30px; }
+  color: #F9CA2B; }
 
 /*--
     - Margin & Padding
@@ -1687,6 +1696,8 @@ General Class
 .skill {
   margin-bottom: 35px;
   position: relative; }
+  .skill:last-child {
+    margin-bottom: 0; }
 
 .skill > p {
   font-size: 14px;

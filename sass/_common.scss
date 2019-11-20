@@ -307,16 +307,23 @@ General Class
 	}
 }
 .section-wrapper {
-	padding: 50px;
+	padding: 70px;
 	height: auto;
 	@media #{$desktop}{
 		padding: 150px;
 	}
 }
+.skill-area,
+.education-area,
+.languages-area{
+	padding-top: 65px;
+	@media #{$desktop} {
+		padding-top: 150px;
+	}
+}
 .title{
 	text-transform: uppercase;
 	color: $yellow;
-	margin-bottom: 30px;
 }
 .section-title{
 	@extend %section-title;
