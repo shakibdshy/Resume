@@ -15,3 +15,16 @@
 %border-btn{
     border: 1px solid $black;
 }
+%section-title{
+    margin-bottom: 40px;
+    h3{
+        text-transform: uppercase;
+        color: $yellow;
+        margin-bottom: 30px;
+    }
+    p {
+        width: 64%;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+}

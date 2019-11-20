@@ -11,9 +11,6 @@
          font-size: 12px;
       }
    }
-   p{
-      margin-bottom: 22px;
-   }
 }
 .about-button{
    margin-top: 30px;
@@ -31,11 +28,8 @@
 /*  05. Skill Area
 /*----------------------------------------*/
 .skill-area{
-   padding-top: 45px;
    p{
       width: 55%;
-      line-height: 26px;
-      margin-bottom: 35px;
    }
 }
 .skill {
@@ -182,6 +176,7 @@
    color: $white;
    font-size: 18px;
    margin-right: 35px;
+   margin-top: 30px;
    position: relative;
    &::before{
       position: absolute;
@@ -212,6 +207,34 @@
       font-family: $josefin;
       margin-bottom: 0;
       margin-top: 10px;
+   }
+}
+
+/*----------------------------------------*/
+/*  07. Languages Area
+/*----------------------------------------*/
+.languages-area{
+   padding-top: 40px;
+}
+.percircle{
+   font-size: 150px;
+   margin-left: 25px;
+   margin-bottom: 20px;
+}
+.lang-name{
+   text-align: center;
+   a{
+      font-size: 18px;
+      font-family: $josefin;
+      border: 1px solid #3F3F42;
+      background-color: $header-color;
+      padding: 10px 20px;
+      margin-top: 10px;
+      @include property();
+      &:hover{
+         background-color: $yellow;
+         color: $black;
+      }
    }
 }
 

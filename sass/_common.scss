@@ -318,6 +318,9 @@ General Class
 	color: $yellow;
 	margin-bottom: 30px;
 }
+.section-title{
+	@extend %section-title;
+}
 /*--
     - Margin & Padding
 -----------------------------------------*/

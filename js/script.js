@@ -9,14 +9,15 @@ Version      : 1.0
 	
 	"use strict";
 	// Preloader
-	jQuery(window).on('load', function() {
-		preloader();
+	// jQuery(window).on('load', function() {
+	// 	preloader();
 		
-		// mCustomScrollbar
-		jQuery(".header-inner").mCustomScrollbar();
-		jQuery(".pt-page").mCustomScrollbar();		
+	// 	// mCustomScrollbar
+	// 	jQuery(".header-inner").mCustomScrollbar();
+	// 	jQuery(".pt-page").mCustomScrollbar();		
 		
-	});
+	// });
+
 	// Author Contact Tooltip 
 	$('[data-toggle="tooltip"]').tooltip()
 	
@@ -69,6 +70,21 @@ Version      : 1.0
 
 	// Skill Area 
 	new WOW().init();
+
+	// Language
+	$("#english").percircle({
+		progressBarColor: "#F9CA2B",
+	});
+	$("#french").percircle({
+		progressBarColor: "#F9CA2B",
+	});
+	$("#arabic").percircle({
+		progressBarColor: "#F9CA2B",
+	});
+	$("#bengali").percircle({
+		progressBarColor: "#F9CA2B",
+	});
+
 
 	// Portfolio Filter 
 	jQuery('#filter-list button').on("click", function () {
