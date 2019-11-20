@@ -87,26 +87,22 @@ Version      : 1.0
 
 
 	// Portfolio Filter 
-	jQuery('#filter-list button').on("click", function () {
-		jQuery('#filter-list button').removeClass('active');
-		jQuery(this).addClass('active');
-	});
-	if (jQuery('.gallery-outer .gallery-items').length > 0) {
-		jQuery('.gallery-outer .gallery-items').filterizr();
-	}
-	// Animation section
-	if(jQuery('.wow').length){
-		var wow = new WOW(
-		{
-			boxClass:     'wow',      // animated element css class (default is wow)
-			animateClass: 'animated', // animation css class (default is animated)
-			offset:       0,          // distance to the element when triggering the animation (default is 0)
-			mobile:       true,       // trigger animations on mobile devices (default is true)
-			live:         true       // act on asynchronously loaded content (default is true)
+	// Portfolio Masonary
+	var $grid = $('.grid-active').isotope({
+		itemSelector: '.grid-item',
+		percentPosition: true,
+		masonry: {
+			// use outer width of grid-sizer for columnWidth
+			columnWidth: 1
 		}
-		);
-		wow.init();
-	}
+	})
+	// filter items on button click
+	$('.grid-filter').on('click', 'li', function () {
+		var filterValue = $(this).attr('data-filter');
+		$grid.isotope({
+			filter: filterValue
+		});
+	});
 		
 	
 })(jQuery);	
