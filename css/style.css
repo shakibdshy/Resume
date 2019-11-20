@@ -517,12 +517,14 @@ General Class
 
 .skill-area,
 .education-area,
-.languages-area {
+.languages-area,
+.experience-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
     .education-area,
-    .languages-area {
+    .languages-area,
+    .experience-area {
       padding-top: 150px; } }
 
 .title {
@@ -1815,32 +1817,33 @@ General Class
 .education-area p {
   width: 64%; }
 
-.edu-inner {
+.edu-inner,
+.exp-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-.edu-date {
+.edu-date, .exp-date {
   color: #fff;
   font-size: 18px;
   margin-right: 35px;
   margin-top: 30px;
   position: relative; }
-  .edu-date::before {
+  .edu-date::before, .exp-date::before {
     position: absolute;
     content: ''; }
 
-.edu-content {
+.edu-content, .exp-content {
   border: 1px solid #6A6B70;
   padding: 30px;
   margin-left: 30px;
   margin-bottom: 30px; }
-  .edu-content h4 {
+  .edu-content h4, .exp-content h4 {
     color: #F9CA2B;
     font-size: 22px; }
-  .edu-content span {
+  .edu-content span, .exp-content span {
     color: #fff; }
-  .edu-content p {
+  .edu-content p, .exp-content p {
     width: 100%;
     color: #6A6B70;
     font-family: "Josefin Sans", sans-serif;
@@ -1873,6 +1876,30 @@ General Class
     .lang-name a:hover {
       background-color: #F9CA2B;
       color: #333333; }
+
+/*----------------------------------------*/
+/*  08. Experience Area
+/*----------------------------------------*/
+.experience-area .section-title p {
+  width: 85%; }
+
+.exp-content {
+  background: #1C1D22; }
+  .exp-content h4 {
+    color: #fff;
+    letter-spacing: 0.55px;
+    margin-bottom: 0; }
+  .exp-content span {
+    color: #F9CA2B;
+    display: block;
+    font-weight: 700; }
+    .exp-content span.desig {
+      color: #fff;
+      font-size: 18px;
+      font-family: "Josefin Sans", sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      padding-top: 10px; }
 
 /*======================================== Resume =============================*/
 /*================================ Portfolio Section ====================================*/

@@ -171,10 +171,11 @@
       width: 64%;
    }
 }
-.edu-inner{
+.edu-inner,
+.exp-inner {
    display: flex;
 }
-.edu-date{
+.edu-date, .exp-date{
    color: $white;
    font-size: 18px;
    margin-right: 35px;
@@ -191,7 +192,7 @@
 //    height: 200px;
 //    background: #38383B;
 // }
-.edu-content{
+.edu-content, .exp-content{
    border: 1px solid $text-color;
    padding: 30px; 
    margin-left: 30px;
@@ -239,6 +240,35 @@
       }
    }
 }
-
-
+/*----------------------------------------*/
+/*  08. Experience Area
+/*----------------------------------------*/
+.experience-area{
+   .section-title{
+      p{
+         width: 85%;
+      }
+   }
+}
+.exp-content{
+   background: $header-color;
+   h4{
+      color: $white;
+      letter-spacing: 0.55px;
+      margin-bottom: 0;
+   }
+   span{
+      color: $yellow;
+      display: block;
+      font-weight: 700;
+      &.desig{
+         color: $white;
+         font-size: 18px;
+         font-family: $josefin;
+         font-style: italic;
+         font-weight: 400;
+         padding-top: 10px;
+      }
+   }
+}
 

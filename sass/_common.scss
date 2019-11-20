@@ -315,7 +315,8 @@ General Class
 }
 .skill-area,
 .education-area,
-.languages-area{
+.languages-area,
+.experience-area {
 	padding-top: 65px;
 	@media #{$desktop} {
 		padding-top: 150px;
