@@ -518,13 +518,15 @@ General Class
 .skill-area,
 .education-area,
 .languages-area,
-.experience-area {
+.experience-area,
+.service-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
     .education-area,
     .languages-area,
-    .experience-area {
+    .experience-area,
+    .service-area {
       padding-top: 150px; } }
 
 .title {
@@ -1902,6 +1904,9 @@ General Class
       padding-top: 10px; }
 
 /*======================================== Resume =============================*/
+/*----------------------------------------*/
+/*  11. Header Area
+/*----------------------------------------*/
 /*================================ Portfolio Section ====================================*/
 /*================================ Blog Section ====================================*/
 /*================================ Contact Section ====================================*/
