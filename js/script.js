@@ -25,6 +25,7 @@ Version      : 1.0
 	$(window).on("load", function () {
 		$(".sidebar").mCustomScrollbar();
 	});
+	
 
 	// Sidebar Opener
 	$('#menu .mobile-menu-opener').on('click', function (e) {
