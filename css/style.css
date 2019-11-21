@@ -225,13 +225,13 @@ Version      : 1.0
 .btn-border, .btn-yellow {
   border: 1px solid #333333; }
 
-.section-title {
+.section-title, .section-title-white {
   margin-bottom: 40px; }
-  .section-title h3 {
+  .section-title h3, .section-title-white h3 {
     text-transform: uppercase;
     color: #F9CA2B;
     margin-bottom: 5px; }
-  .section-title p {
+  .section-title p, .section-title-white p {
     width: 64%;
     line-height: 26px;
     margin-bottom: 0; }
@@ -525,7 +525,8 @@ General Class
 .experience-area,
 .portfolio-area,
 .service-area,
-.contact-area {
+.contact-area,
+.skill1-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
@@ -534,12 +535,16 @@ General Class
     .experience-area,
     .portfolio-area,
     .service-area,
-    .contact-area {
+    .contact-area,
+    .skill1-area {
       padding-top: 150px; } }
 
 .title {
   text-transform: uppercase;
   color: #F9CA2B; }
+
+.section-title-white h3 {
+  color: #fff; }
 
 /*--
     - Margin & Padding

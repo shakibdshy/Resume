@@ -319,7 +319,8 @@ General Class
 .experience-area,
 .portfolio-area,
 .service-area,
-.contact-area {
+.contact-area,
+.skill1-area {
 	padding-top: 65px;
 	@media #{$desktop} {
 		padding-top: 150px;
@@ -331,6 +332,12 @@ General Class
 }
 .section-title{
 	@extend %section-title;
+}
+.section-title-white{
+	@extend %section-title;
+	h3{
+		color: $white;
+	}
 }
 /*--
     - Margin & Padding
