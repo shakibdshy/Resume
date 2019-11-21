@@ -1911,6 +1911,9 @@ General Class
       font-weight: 400;
       padding-top: 10px; }
 
+.single-circle.myskill .percircle:after {
+  background: #2c2c2c; }
+
 /*----------------------------------------*/
 /*  11. Service Area
 /*----------------------------------------*/

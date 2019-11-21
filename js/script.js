@@ -73,18 +73,15 @@ Version      : 1.0
 	new WOW().init();
 
 	// Language
-	$("#english").percircle({
-		progressBarColor: "#F9CA2B",
-	});
-	$("#french").percircle({
-		progressBarColor: "#F9CA2B",
-	});
-	$("#arabic").percircle({
-		progressBarColor: "#F9CA2B",
-	});
-	$("#bengali").percircle({
-		progressBarColor: "#F9CA2B",
-	});
+	$("#english").percircle();
+	$("#french").percircle();
+	$("#arabic").percircle();
+	$("#bengali").percircle();
+	$("#design").percircle();
+	$("#prototype").percircle();
+	$("#photography").percircle();
+	$("#brainstorming").percircle();
+	$("#creative").percircle();
 
 
 	// Portfolio Filter 
