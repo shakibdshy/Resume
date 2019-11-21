@@ -254,6 +254,11 @@ label {
 .btn-border{
 	@extend %border-btn;
 }
+.btn-yellow{
+	@extend %border-btn;
+	background: $yellow;
+	color: $white;
+}
 
 /* Button 1 */
 .btn:after {

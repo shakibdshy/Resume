@@ -222,7 +222,7 @@ Version      : 1.0
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out; }
 
-.btn-border {
+.btn-border, .btn-yellow {
   border: 1px solid #333333; }
 
 .section-title {
@@ -463,6 +463,10 @@ label {
 /*--------------------------------------
 	- Button
 ----------------------------------------*/
+.btn-yellow {
+  background: #F9CA2B;
+  color: #fff; }
+
 /* Button 1 */
 .btn:after {
   content: '';
