@@ -39,3 +39,16 @@
       color: $yellow;
    }
 }
+
+footer{
+   padding: 0 50px;
+   @media #{$desktop}{
+      padding: 0 150px;
+   }
+   span{
+      font-size: 14px;
+      font-family: $josefin;
+      font-weight: 400;
+      color: $text-color;
+   }
+}

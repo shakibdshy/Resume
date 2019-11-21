@@ -505,7 +505,7 @@ General Class
 ----------------------------------------*/
 .perspective {
   width: 1584px;
-  height: 100vh;
+  height: auto;
   margin-left: 336px; }
 
 .section-wrapper {
@@ -1942,3 +1942,14 @@ General Class
 .contact-form button {
   border-color: #F9CA2B;
   color: #F9CA2B; }
+
+footer {
+  padding: 0 50px; }
+  @media (min-width: 1367px) {
+    footer {
+      padding: 0 150px; } }
+  footer span {
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    color: #6A6B70; }
