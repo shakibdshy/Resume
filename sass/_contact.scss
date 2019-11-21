@@ -1,1 +1,41 @@
-/*================================ Contact Section ====================================*/
+/*----------------------------------------*/
+/*  12. Contact Area
+/*----------------------------------------*/
+.contact-details{
+   h4{
+      font-size: 20px;
+      font-family: $josefin;
+      color: $white;
+      margin-bottom: 15px;
+   }
+   ul{
+      li{
+         margin-top: 40px;
+         font-family: $josefin;
+         &:first-child{
+            margin-top: 0;
+         }
+         li{
+            margin-top: 0;
+         }
+      }
+   }
+}
+.contact-form{
+   input, textarea{
+      width: 100%;
+      background: $header-color;
+      border: 1px solid #3F3F42;
+      color: $gray;
+      padding: 13px 20px;
+      margin-bottom: 30px;
+      font-family: $josefin;
+      &:focus{
+         border-color: $yellow;
+      }
+   }
+   button{
+      border-color: $yellow;
+      color: $yellow;
+   }
+}

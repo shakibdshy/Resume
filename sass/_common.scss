@@ -72,7 +72,7 @@ h3 {
 	font-size: 36px;
 }
 h4 {
-	font-size: 26px;
+	font-size: 18px;
 }
 h5 {
 	font-size: 17px;
@@ -307,7 +307,7 @@ General Class
 	}
 }
 .section-wrapper {
-	padding: 70px;
+	padding: 70px 50px;
 	height: auto;
 	@media #{$desktop}{
 		padding: 150px;
@@ -317,7 +317,8 @@ General Class
 .education-area,
 .languages-area,
 .experience-area,
-.service-area {
+.service-area,
+.contact-area {
 	padding-top: 65px;
 	@media #{$desktop} {
 		padding-top: 150px;

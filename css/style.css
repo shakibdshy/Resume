@@ -311,7 +311,7 @@ h3 {
   font-size: 36px; }
 
 h4 {
-  font-size: 26px; }
+  font-size: 18px; }
 
 h5 {
   font-size: 17px; }
@@ -509,7 +509,7 @@ General Class
   margin-left: 336px; }
 
 .section-wrapper {
-  padding: 70px;
+  padding: 70px 50px;
   height: auto; }
   @media (min-width: 1367px) {
     .section-wrapper {
@@ -519,14 +519,16 @@ General Class
 .education-area,
 .languages-area,
 .experience-area,
-.service-area {
+.service-area,
+.contact-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
     .education-area,
     .languages-area,
     .experience-area,
-    .service-area {
+    .service-area,
+    .contact-area {
       padding-top: 150px; } }
 
 .title {
@@ -1909,4 +1911,34 @@ General Class
 /*----------------------------------------*/
 /*================================ Portfolio Section ====================================*/
 /*================================ Blog Section ====================================*/
-/*================================ Contact Section ====================================*/
+/*----------------------------------------*/
+/*  12. Contact Area
+/*----------------------------------------*/
+.contact-details h4 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  margin-bottom: 15px; }
+
+.contact-details ul li {
+  margin-top: 40px;
+  font-family: "Josefin Sans", sans-serif; }
+  .contact-details ul li:first-child {
+    margin-top: 0; }
+  .contact-details ul li li {
+    margin-top: 0; }
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  background: #1C1D22;
+  border: 1px solid #3F3F42;
+  color: #9DA1A5;
+  padding: 13px 20px;
+  margin-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif; }
+  .contact-form input:focus, .contact-form textarea:focus {
+    border-color: #F9CA2B; }
+
+.contact-form button {
+  border-color: #F9CA2B;
+  color: #F9CA2B; }
