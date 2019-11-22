@@ -1,0 +1,39 @@
+/*----------------------------------------*/
+/*  10. Header Area
+/*----------------------------------------*/
+.portfolio-menu{
+   margin-bottom: 40px;
+   li{
+      display: inline-block;
+      font-family: $josefin;
+      font-size: 14px;
+      color: #9DA1A5;
+      margin-right: 30px;
+      cursor: pointer;
+      @include property;
+      position: relative;      
+      &::before{
+         position: absolute;
+         content: '';
+         width: 5px;
+         height: 5px;
+         background: $yellow;
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         left: 45%;
+         bottom: 0;
+         visibility: hidden;
+         opacity: 0;
+      }
+      &:hover {
+         color: $yellow;
+         &::before{
+            opacity: 1;
+            visibility: visible;
+         }
+      }
+   }
+}

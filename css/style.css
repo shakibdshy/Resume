@@ -1925,6 +1925,43 @@ General Class
   background: #2c2c2c; }
 
 /*----------------------------------------*/
+/*  10. Header Area
+/*----------------------------------------*/
+.portfolio-menu {
+  margin-bottom: 40px; }
+  .portfolio-menu li {
+    display: inline-block;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    color: #9DA1A5;
+    margin-right: 30px;
+    cursor: pointer;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    position: relative; }
+    .portfolio-menu li::before {
+      position: absolute;
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: #F9CA2B;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      left: 45%;
+      bottom: 0;
+      visibility: hidden;
+      opacity: 0; }
+    .portfolio-menu li:hover {
+      color: #F9CA2B; }
+      .portfolio-menu li:hover::before {
+        opacity: 1;
+        visibility: visible; }
+
+/*----------------------------------------*/
 /*  11. Service Area
 /*----------------------------------------*/
 .service-box {
