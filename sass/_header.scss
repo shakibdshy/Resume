@@ -182,11 +182,11 @@
    width: 142px;
 
    .sidebar-link {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align: center;
    }
    .author-name{
-      text-align-last: left;
       h3{
          padding: 15px;
          &::before{
@@ -207,6 +207,7 @@
             text-align: center;
             width: 42px;
             height: 42px;
+            margin: auto;
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
@@ -231,5 +232,87 @@
             background: transparent;
          }
       }
+   }
+}
+.sidebar-s-link .social-top,
+.sidebar-s-link .social-bottom {
+   a{
+      padding: 5px 10px;
+   }
+}
+.social-top{
+   position: relative;
+   &::before{
+      position: absolute;
+      content: '';
+      width: 31px;
+      height: 1px;
+      top: 35px;
+      left: 54px;
+      background: $text-color;
+   }
+}
+.social-bottom{
+   position: relative;
+   &::before {
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 31px;
+      bottom: 22px;
+      left: 69px;
+      background: $text-color;
+   }
+}
+.border-top-left{
+   position: relative;
+   &::before{
+      position: absolute;
+      content: '';
+      width: 14px;
+      height: 14px;
+      border-top: 1px solid $text-color;
+      border-left: 1px solid $text-color;
+      top: 0;
+      left: 2px;
+   }
+}
+.border-top-right{
+   position: relative;
+   &::before {
+      position: absolute;
+      content: '';
+      width: 14px;
+      height: 14px;
+      top: 0;
+      right: 0;
+      border-top: 1px solid $text-color;
+      border-right: 1px solid $text-color;
+   }
+}
+.border-bottom-left{
+   position: relative;
+   &::before {
+      position: absolute;
+      content: '';
+      width: 14px;
+      height: 14px;
+      bottom: 0;
+      left: 2px;
+      border-bottom: 1px solid $text-color;
+      border-left: 1px solid $text-color;
+   }
+}
+.border-bottom-right{
+   position: relative;
+   &::before {
+      position: absolute;
+      content: '';
+      width: 14px;
+      height: 14px;
+      bottom: 0;
+      right: 2px;
+      border-bottom: 1px solid $text-color;
+      border-right: 1px solid $text-color;
    }
 }

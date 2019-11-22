@@ -1697,18 +1697,17 @@ General Class
 .sidebar2 {
   width: 142px; }
   .sidebar2 .sidebar-link {
-    padding-left: 50px;
-    padding-right: 50px; }
-  .sidebar2 .author-name {
-    text-align-last: left; }
-    .sidebar2 .author-name h3 {
-      padding: 15px; }
-      .sidebar2 .author-name h3::before {
-        left: 0;
-        top: 10px; }
-      .sidebar2 .author-name h3::after {
-        right: 0;
-        bottom: 10px; }
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center; }
+  .sidebar2 .author-name h3 {
+    padding: 15px; }
+    .sidebar2 .author-name h3::before {
+      left: 0;
+      top: 10px; }
+    .sidebar2 .author-name h3::after {
+      right: 0;
+      bottom: 10px; }
   .sidebar2 nav {
     padding-top: 40px; }
     .sidebar2 nav li a {
@@ -1716,6 +1715,7 @@ General Class
       text-align: center;
       width: 42px;
       height: 42px;
+      margin: auto;
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
@@ -1735,6 +1735,80 @@ General Class
       width: 0;
       height: 0;
       background: transparent; }
+
+.sidebar-s-link .social-top a,
+.sidebar-s-link .social-bottom a {
+  padding: 5px 10px; }
+
+.social-top {
+  position: relative; }
+  .social-top::before {
+    position: absolute;
+    content: '';
+    width: 31px;
+    height: 1px;
+    top: 35px;
+    left: 54px;
+    background: #6A6B70; }
+
+.social-bottom {
+  position: relative; }
+  .social-bottom::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 31px;
+    bottom: 22px;
+    left: 69px;
+    background: #6A6B70; }
+
+.border-top-left {
+  position: relative; }
+  .border-top-left::before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-top: 1px solid #6A6B70;
+    border-left: 1px solid #6A6B70;
+    top: 0;
+    left: 2px; }
+
+.border-top-right {
+  position: relative; }
+  .border-top-right::before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    top: 0;
+    right: 0;
+    border-top: 1px solid #6A6B70;
+    border-right: 1px solid #6A6B70; }
+
+.border-bottom-left {
+  position: relative; }
+  .border-bottom-left::before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    bottom: 0;
+    left: 2px;
+    border-bottom: 1px solid #6A6B70;
+    border-left: 1px solid #6A6B70; }
+
+.border-bottom-right {
+  position: relative; }
+  .border-bottom-right::before {
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 14px;
+    bottom: 0;
+    right: 2px;
+    border-bottom: 1px solid #6A6B70;
+    border-right: 1px solid #6A6B70; }
 
 /*----------------------------------------*/
 /*  04. About Area
