@@ -512,6 +512,9 @@ General Class
   height: auto;
   margin-left: 336px; }
 
+.resume2 {
+  margin-left: 142px; }
+
 .section-wrapper {
   padding: 70px 50px;
   height: auto; }
@@ -1689,6 +1692,49 @@ General Class
       padding: 15px;
       color: #6A6B70;
       display: block; }
+
+/*--------------------------------HomePage 2---------------------------------------*/
+.sidebar2 {
+  width: 142px; }
+  .sidebar2 .sidebar-link {
+    padding-left: 50px;
+    padding-right: 50px; }
+  .sidebar2 .author-name {
+    text-align-last: left; }
+    .sidebar2 .author-name h3 {
+      padding: 15px; }
+      .sidebar2 .author-name h3::before {
+        left: 0;
+        top: 10px; }
+      .sidebar2 .author-name h3::after {
+        right: 0;
+        bottom: 10px; }
+  .sidebar2 nav {
+    padding-top: 40px; }
+    .sidebar2 nav li a {
+      padding: 5px;
+      text-align: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border: 1px solid #333333;
+      margin-bottom: 20px; }
+      .sidebar2 nav li a img {
+        width: 22px;
+        height: 22px;
+        margin-right: 0; }
+    .sidebar2 nav li::before {
+      width: 0;
+      height: 0;
+      background: transparent; }
+    .sidebar2 nav li:last-child::after {
+      width: 0;
+      height: 0;
+      background: transparent; }
 
 /*----------------------------------------*/
 /*  04. About Area
