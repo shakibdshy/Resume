@@ -1680,6 +1680,8 @@ General Class
 
 .sidebar-s-link {
   margin-bottom: 35px; }
+  .sidebar-s-link a {
+    display: block; }
   .sidebar-s-link li {
     display: inline-block; }
     .sidebar-s-link li a {
