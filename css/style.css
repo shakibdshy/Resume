@@ -529,7 +529,8 @@ General Class
 .portfolio-area,
 .service-area,
 .contact-area,
-.skill1-area {
+.skill1-area,
+.edu1-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
@@ -539,7 +540,8 @@ General Class
     .portfolio-area,
     .service-area,
     .contact-area,
-    .skill1-area {
+    .skill1-area,
+    .edu1-area {
       padding-top: 150px; } }
 
 .title {
@@ -1840,6 +1842,56 @@ General Class
         color: #333333;
         text-align: center;
         margin-right: 10px; }
+
+.about-author1-image {
+  position: relative; }
+  .about-author1-image img {
+    position: relative;
+    z-index: 2; }
+  .about-author1-image::before {
+    position: absolute;
+    content: "";
+    width: 415px;
+    height: 600px;
+    background: #F9CA2B;
+    left: -30px;
+    top: 90px; }
+
+.about-content1 h3 {
+  font-family: "Lora", serif;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 50px; }
+  .about-content1 h3 span {
+    font-weight: 700; }
+
+.about-content1 hr {
+  width: 50px;
+  height: 1px;
+  background: #F9CA2B; }
+
+.about-content1 p {
+  color: #C9CBCE;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 22px; }
+
+.about-content1 h4 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 25px; }
+
+.about-content1 img {
+  margin-right: 25px;
+  margin-bottom: 30px; }
+
+.about-group-btn {
+  margin-top: 20px; }
+  .about-group-btn a {
+    margin-right: 25px; }
+
+.section-title-white p {
+  width: 51%; }
 
 /*----------------------------------------*/
 /*  04. About Area
