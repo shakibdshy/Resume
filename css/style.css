@@ -2073,6 +2073,64 @@ General Class
     margin-bottom: 0;
     margin-top: 10px; }
 
+.edu1-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  background: #2c2c2c;
+  margin-bottom: 30px;
+  position: relative; }
+  .edu1-inner::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: #F9CA2B;
+    top: 0;
+    left: 0; }
+  .edu1-inner .edu1-left {
+    display: block; }
+    .edu1-inner .edu1-left .date span {
+      font-size: 32px;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 600;
+      color: #fff; }
+    .edu1-inner .edu1-left .date hr {
+      width: 50px;
+      height: 1px;
+      background: #fff;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .edu1-inner .edu1-left .edu1-en {
+      font-size: 16px;
+      color: #fff;
+      font-family: "Josefin Sans", sans-serif;
+      font-weight: 600; }
+    .edu1-inner .edu1-left .edu1-number {
+      font-size: 120px;
+      font-family: "Lora", serif;
+      font-weight: 700;
+      opacity: 0.05;
+      position: absolute;
+      top: 70px;
+      left: 100px; }
+  .edu1-inner .edu1-right {
+    margin-left: 30px; }
+    .edu1-inner .edu1-right h4 {
+      color: #fff;
+      font-size: 22px;
+      margin-bottom: 0; }
+    .edu1-inner .edu1-right span {
+      font-family: "Lora", serif;
+      color: #fff;
+      padding-bottom: 10px;
+      padding-top: 5px;
+      display: block; }
+    .edu1-inner .edu1-right p {
+      font-family: "Josefin Sans", sans-serif;
+      margin-bottom: 0; }
+
 /*----------------------------------------*/
 /*  07. Languages Area
 /*----------------------------------------*/

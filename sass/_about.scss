@@ -213,6 +213,74 @@
    }
 }
 
+.edu1-inner{
+   display: flex;
+   padding: 30px;
+   background: #2c2c2c;
+   margin-bottom: 30px; 
+   position: relative;
+   &::before{
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 5px;
+      background: $yellow;
+      top: 0;
+      left: 0;
+   }
+   .edu1-left{
+      display: block;
+      .date{
+         span{
+            font-size: 32px;
+            font-family: $josefin;
+            font-weight: 600;
+            color: $white;
+         }
+         hr{
+            width: 50px;
+            height: 1px;
+            background: $white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+         }
+      }
+      .edu1-en{
+         font-size: 16px;
+         color: $white;
+         font-family: $josefin;
+         font-weight: 600;
+      }
+      .edu1-number{
+         font-size: 120px;
+         font-family: $lora;
+         font-weight: 700;
+         opacity: 0.05;
+         position: absolute;
+         top: 70px;
+         left: 100px;
+      }
+   }
+   .edu1-right{
+      margin-left: 30px;
+      h4{
+         color: $white;
+         font-size: 22px;
+         margin-bottom: 0;
+      }
+      span{
+         font-family: $lora;
+         color: $white;
+         padding-bottom: 10px;
+         padding-top: 5px;
+         display: block;
+      }
+      p{
+         font-family: $josefin;
+         margin-bottom: 0;
+      }
+   }
+}
 /*----------------------------------------*/
 /*  07. Languages Area
 /*----------------------------------------*/
