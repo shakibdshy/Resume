@@ -1722,11 +1722,16 @@ General Class
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       border: 1px solid #333333;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      -webkit-transition: 0.3s ease-out;
+      -o-transition: 0.3s ease-out;
+      transition: 0.3s ease-out; }
       .sidebar2 nav li a img {
         width: 22px;
         height: 22px;
         margin-right: 0; }
+      .sidebar2 nav li a:hover {
+        border-color: #F9CA2B; }
     .sidebar2 nav li::before {
       width: 0;
       height: 0;
@@ -1809,6 +1814,32 @@ General Class
     right: 2px;
     border-bottom: 1px solid #6A6B70;
     border-right: 1px solid #6A6B70; }
+
+.about-area1 {
+  position: relative; }
+  .about-area1 .cv {
+    position: absolute;
+    right: -50px;
+    top: -70px; }
+    .about-area1 .cv li {
+      display: inline-block;
+      color: #F9CA2B; }
+      .about-area1 .cv li.number {
+        margin-right: 25px; }
+      .about-area1 .cv li i {
+        width: 22px;
+        height: 22px;
+        background: #F9CA2B;
+        line-height: 22px;
+        display: inline-block;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #333333;
+        text-align: center;
+        margin-right: 10px; }
 
 /*----------------------------------------*/
 /*  04. About Area
