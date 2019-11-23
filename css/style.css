@@ -530,7 +530,8 @@ General Class
 .service-area,
 .contact-area,
 .skill1-area,
-.edu1-area {
+.edu1-area,
+.lang1-area {
   padding-top: 65px; }
   @media (min-width: 1367px) {
     .skill-area,
@@ -541,7 +542,8 @@ General Class
     .service-area,
     .contact-area,
     .skill1-area,
-    .edu1-area {
+    .edu1-area,
+    .lang1-area {
       padding-top: 150px; } }
 
 .title {
@@ -2157,6 +2159,26 @@ General Class
     .lang-name a:hover {
       background-color: #F9CA2B;
       color: #333333; }
+
+.lang1-area {
+  padding-top: 35px; }
+
+.lang1-content h4 {
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #F9CA2B; }
+
+.lang1-content hr {
+  width: 30px;
+  height: 1px;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.lang1-content span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px; }
 
 /*----------------------------------------*/
 /*  08. Experience Area

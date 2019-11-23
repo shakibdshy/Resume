@@ -308,6 +308,32 @@
       }
    }
 }
+
+
+.lang1-area{
+   padding-top: 35px;
+}
+.lang1-content{
+   h4{
+      font-size: 22px;
+      font-family: $josefin;
+      font-weight: 700;
+      color: $yellow;
+   }
+   hr{
+      width: 30px;
+      height: 1px;
+      background: #fff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   }
+   span{
+      font-family: $josefin;
+      font-size: 14px;
+
+   }
+}
+
 /*----------------------------------------*/
 /*  08. Experience Area
 /*----------------------------------------*/
