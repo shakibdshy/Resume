@@ -6,7 +6,7 @@ Version      : 1.0
 /*--
     - Overlay
 ------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,600,600i,700,700i|Lora:400,700,700i|Playfair+Display:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,600,600i,700,700i|Lora:400,400i,700,700i|Playfair+Display:400,700&display=swap");
 [data-overlay] {
   position: relative;
   background-size: cover;
@@ -2206,6 +2206,53 @@ General Class
 
 .single-circle.myskill .percircle:after {
   background: #2c2c2c; }
+
+.exp1 .section-title-white p {
+  width: 65%; }
+
+.exp1-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #2c2c2c;
+  padding: 30px;
+  margin-bottom: 30px; }
+
+.exp1-icon {
+  position: relative; }
+  .exp1-icon i {
+    color: #F9CA2B;
+    font-size: 35px;
+    padding: 20px;
+    background: #363636; }
+  .exp1-icon .exp1-number {
+    font-size: 75px;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    color: #fff;
+    opacity: 0.05;
+    position: absolute;
+    top: 50%; }
+
+.exp1-content {
+  margin-left: 30px; }
+  .exp1-content h4 {
+    font-size: 22px;
+    color: #fff; }
+  .exp1-content .exp1-comp span {
+    color: #F9CA2B;
+    font-family: "Josefin Sans", sans-serif; }
+  .exp1-content span {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 5px;
+    display: block; }
+  .exp1-content p {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0; }
 
 /*----------------------------------------*/
 /*  10. Header Area

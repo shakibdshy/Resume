@@ -309,7 +309,6 @@
    }
 }
 
-
 .lang1-area{
    padding-top: 35px;
 }
@@ -371,5 +370,66 @@
       .percircle:after{
          background: #2c2c2c;
       }
+   }
+}
+
+.exp1{
+   .section-title-white{
+      p{
+         width: 65%;
+      }
+   }
+}
+
+.exp1-inner{
+   display: flex;
+   background: #2c2c2c;
+   padding: 30px;
+   margin-bottom: 30px;
+}
+.exp1-icon{
+   position: relative;
+   i{
+      color: $yellow;
+      font-size: 35px;
+      padding: 20px;
+      background: #363636;
+
+   }
+   .exp1-number{
+      font-size: 75px;
+      font-family: $lora;
+      font-weight: 700;
+      color: $white;
+      opacity: 0.05;
+      position: absolute;
+      top: 50%;
+   }
+}
+.exp1-content{
+   margin-left: 30px;
+   h4{
+      font-size: 22px;
+      color: $white;
+
+   }
+   .exp1-comp{
+      span{
+         color: $yellow;
+         font-family: $josefin;
+      }
+   }
+   span{
+      color: $white;
+      font-size: 18px;
+      font-family: $lora;
+      font-weight: 400;
+      font-style: italic;
+      padding-top: 5px;
+      display: block;
+   }
+   p{
+      font-family: $josefin;
+      margin-bottom: 0;
    }
 }
