@@ -1825,6 +1825,28 @@ General Class
     border-bottom: 1px solid #6A6B70;
     border-right: 1px solid #6A6B70; }
 
+.section-title-white p {
+  width: 51%; }
+
+/*----------------------------------------*/
+/*  04. About Area
+/*----------------------------------------*/
+.about-content li {
+  line-height: 32px;
+  font-family: "Josefin Sans", sans-serif; }
+  .about-content li i {
+    color: #F9CA2B;
+    margin-right: 10px;
+    font-size: 12px; }
+
+.about-button {
+  margin-top: 30px; }
+  .about-button a {
+    margin-right: 25px; }
+    .about-button a.btn-1b {
+      background: #F9CA2B !important;
+      color: #000000; }
+
 .about-area1 {
   position: relative; }
   .about-area1 .cv {
@@ -1897,28 +1919,6 @@ General Class
   margin-top: 20px; }
   .about-group-btn a {
     margin-right: 25px; }
-
-.section-title-white p {
-  width: 51%; }
-
-/*----------------------------------------*/
-/*  04. About Area
-/*----------------------------------------*/
-.about-content li {
-  line-height: 32px;
-  font-family: "Josefin Sans", sans-serif; }
-  .about-content li i {
-    color: #F9CA2B;
-    margin-right: 10px;
-    font-size: 12px; }
-
-.about-button {
-  margin-top: 30px; }
-  .about-button a {
-    margin-right: 25px; }
-    .about-button a.btn-1b {
-      background: #F9CA2B !important;
-      color: #000000; }
 
 /*----------------------------------------*/
 /*  05. Skill Area
