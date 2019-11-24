@@ -517,7 +517,7 @@ General Class
   margin-left: 336px; }
 
 .resume2 {
-  margin-left: 142px; }
+  margin-left: 142px !important; }
 
 .section-wrapper {
   padding: 70px 50px;
@@ -1851,7 +1851,7 @@ General Class
   position: relative; }
   .about-area1 .cv {
     position: absolute;
-    right: -50px;
+    right: 0;
     top: -70px; }
     @media (min-width: 1367px) {
       .about-area1 .cv {
