@@ -507,8 +507,12 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
+@media (min-width: 1367px) {
+  .mx-container {
+    max-width: 1360px; } }
+
 .perspective {
-  width: 1584px;
+  width: 1780px;
   height: auto;
   margin-left: 336px; }
 
@@ -518,6 +522,8 @@ General Class
 .section-wrapper {
   padding: 70px 50px;
   height: auto; }
+  .section-wrapper.resume2 {
+    padding: 150px 0; }
   @media (min-width: 1367px) {
     .section-wrapper {
       padding: 150px; } }
@@ -2397,6 +2403,14 @@ General Class
 .contact-form button {
   border-color: #F9CA2B;
   color: #F9CA2B; }
+
+.contact1 {
+  color: #fff;
+  margin-bottom: 43px; }
+  .contact1 i {
+    color: #F9CA2B;
+    margin-bottom: 10px;
+    font-size: 22px; }
 
 footer {
   padding: 0 50px; }

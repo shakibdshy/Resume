@@ -299,8 +299,13 @@ label {
 /*--------------------------------------
 General Class
 ----------------------------------------*/
+.mx-container{
+	@media #{$desktop}{
+		max-width: 1360px;
+	}
+}
 .perspective{
-	width: 1584px;
+	width: 1780px;
 	height: auto;
 	margin-left: 336px;
 }
@@ -310,6 +315,9 @@ General Class
 .section-wrapper {
 	padding: 70px 50px;
 	height: auto;
+	&.resume2{
+		padding: 150px 0;
+	}
 	@media #{$desktop}{
 		padding: 150px;
 	}
