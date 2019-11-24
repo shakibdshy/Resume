@@ -322,6 +322,7 @@ General Class
 		padding: 150px;
 	}
 }
+
 .skill-area,
 .education-area,
 .languages-area,
@@ -348,6 +349,9 @@ General Class
 	@extend %section-title;
 	h3{
 		color: $white;
+	}
+	p {
+		width: 100%;
 	}
 }
 /*--

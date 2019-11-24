@@ -101,12 +101,15 @@
       font-family: $lora;
       color: $white;
       font-weight: 400;
+      margin-bottom: 50px;
 
       span {
          font-weight: 700;
       }
+      @media #{$md} {
+         margin-top: 25px;
+      }
 
-      margin-bottom: 50px;
    }
 
    hr {
@@ -133,6 +136,8 @@
       margin-bottom: 10px;
       margin-top: 10px;
    }
+
+   
 }
 
 .about-group-btn {
@@ -280,7 +285,22 @@
 .skill6 .skill-count6 {
    right: 0;
 }
-
+.percircle{
+   @media #{$lg}{
+      font-size: 120px !important;
+      &::before{
+         width: 120px !important;
+         height: 120px !important;
+      }
+   }
+   @media #{$md}{
+      font-size: 120px !important;
+      &::before{
+         width: 120px !important;
+         height: 120px !important;
+      }
+   }
+}
 /*----------------------------------------*/
 /*  06. Education Area
 /*----------------------------------------*/

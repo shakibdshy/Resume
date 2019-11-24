@@ -559,6 +559,9 @@ General Class
 .section-title-white h3 {
   color: #fff; }
 
+.section-title-white p {
+  width: 100%; }
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -1825,9 +1828,6 @@ General Class
     border-bottom: 1px solid #6A6B70;
     border-right: 1px solid #6A6B70; }
 
-.section-title-white p {
-  width: 51%; }
-
 /*----------------------------------------*/
 /*  04. About Area
 /*----------------------------------------*/
@@ -1911,6 +1911,9 @@ General Class
   margin-bottom: 50px; }
   .about-content1 h3 span {
     font-weight: 700; }
+  @media (min-width: 768px) {
+    .about-content1 h3 {
+      margin-top: 25px; } }
 
 .about-content1 hr {
   width: 50px;
@@ -2059,6 +2062,20 @@ General Class
 
 .skill6 .skill-count6 {
   right: 0; }
+
+@media (min-width: 992px) {
+  .percircle {
+    font-size: 120px !important; }
+    .percircle::before {
+      width: 120px !important;
+      height: 120px !important; } }
+
+@media (min-width: 768px) {
+  .percircle {
+    font-size: 120px !important; }
+    .percircle::before {
+      width: 120px !important;
+      height: 120px !important; } }
 
 /*----------------------------------------*/
 /*  06. Education Area
