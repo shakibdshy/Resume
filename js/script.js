@@ -31,36 +31,23 @@ Version      : 1.0
 	$('#menu .mobile-menu-opener').on('click', function (e) {
 		e.preventDefault();
 		var div = $('#menu');
-		if (div.css('left') === '-220px') {
+		if (div.css('left') === '-142px') {
 			$('#menu').animate({
 				left: '0px'
 			});
 		} else {
 			$('#menu').animate({
-				left: '-220px'
+				left: '-142px'
 			});
 		}
 	});
 
 	// Mobile Menu 
-	$('#navbar li a').on('click', function (e) {
+	$('nav li a').on('click', function (e) {
 		e.preventDefault();
 		if ($(window).width() < 767) {
 			$('#menu').animate({
-				left: '-220px'
-			});
-		} else {
-			$('#menu').animate({
-				left: '0'
-			});
-		}
-	});
-
-	$('.content').on('click', function (e) {
-		//e.preventDefault();
-		if ($(window).width() < 767) {
-			$('#menu').animate({
-				left: '-220px'
+				left: '-142px'
 			});
 		} else {
 			$('#menu').animate({

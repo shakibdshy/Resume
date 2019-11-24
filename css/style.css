@@ -515,9 +515,15 @@ General Class
   width: 1780px;
   height: auto;
   margin-left: 336px; }
+  @media (max-width: 767px) {
+    .perspective {
+      margin-left: 0 !important; } }
 
 .resume2 {
   margin-left: 142px !important; }
+  @media (max-width: 767px) {
+    .resume2 {
+      margin-left: 0 !important; } }
 
 .section-wrapper {
   padding: 70px 50px;
@@ -1560,7 +1566,7 @@ General Class
   width: 336px;
   background-color: #1C1D22;
   border-top: 6px solid #F9CA2B;
-  z-index: 90;
+  z-index: 9999;
   top: 0;
   right: 0;
   bottom: 0;
@@ -1708,7 +1714,9 @@ General Class
 
 /*--------------------------------HomePage 2---------------------------------------*/
 .sidebar2 {
-  width: 142px; }
+  width: 142px;
+  position: relative;
+  z-index: 999; }
   .sidebar2 .sidebar-link {
     padding-left: 0px;
     padding-right: 0px;
@@ -1827,6 +1835,24 @@ General Class
     right: 2px;
     border-bottom: 1px solid #6A6B70;
     border-right: 1px solid #6A6B70; }
+
+a.mobile-menu-opener {
+  position: absolute;
+  right: -40px;
+  width: 40px;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  font-size: 18px;
+  background: #131313;
+  top: 10px;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  display: none; }
+  @media (max-width: 767px) {
+    a.mobile-menu-opener {
+      display: block; } }
 
 /*----------------------------------------*/
 /*  04. About Area

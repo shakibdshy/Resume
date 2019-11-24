@@ -308,9 +308,15 @@ General Class
 	width: 1780px;
 	height: auto;
 	margin-left: 336px;
+	@media #{$xs}{
+		margin-left: 0 !important;
+	}
 }
 .resume2 {
 	margin-left: 142px !important;
+	@media #{$xs} {
+		margin-left: 0 !important; 
+	}
 }
 .section-wrapper {
 	padding: 70px 50px;
