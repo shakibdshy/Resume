@@ -1888,8 +1888,21 @@ General Class
     width: 415px;
     height: 600px;
     background: #F9CA2B;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    opacity: 0;
+    visibility: hidden; }
+    @media (min-width: 1367px) {
+      .about-author1-image::before {
+        top: 130px; } }
+  .about-author1-image:hover::before {
+    opacity: 1;
+    visibility: visible;
     left: -30px;
-    top: 90px; }
+    top: 110px; }
 
 .about-content1 h3 {
   font-family: "Lora", serif;
@@ -1917,7 +1930,8 @@ General Class
 
 .about-content1 img {
   margin-right: 25px;
-  margin-bottom: 30px; }
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 .about-group-btn {
   margin-top: 20px; }
