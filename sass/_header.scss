@@ -9,9 +9,7 @@
    top: 0;
    left: 0;
    z-index: 100;
-   @media #{$xs}{
-      
-   }
+  
 }
 
 a.mobile-menu-opener {
@@ -64,7 +62,7 @@ a.mobile-menu-opener {
    min-width: 100%;
    min-height: 100%;
    background-color: transparent;
-   padding: 50px 70px 70px;
+   padding: 50px;
    background-color: #fff;
    -webkit-transform: translate3d(0, 0, 0);
    -o-transform: translate3d(0, 0, 0);

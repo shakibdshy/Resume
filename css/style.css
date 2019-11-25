@@ -1676,7 +1676,7 @@ a.mobile-menu-opener {
   min-width: 100%;
   min-height: 100%;
   background-color: transparent;
-  padding: 50px 70px 70px;
+  padding: 50px;
   background-color: #fff;
   -webkit-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
