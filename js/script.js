@@ -18,7 +18,7 @@ Version      : 1.0
 		// preloader();
 
 		// mCustomScrollbar
-		jQuery(".header").mCustomScrollbar({
+		jQuery(".header-inner").mCustomScrollbar({
 			theme: "minimal-dark",
 		});
 		jQuery(".pt-page").mCustomScrollbar({
