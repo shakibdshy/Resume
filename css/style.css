@@ -517,6 +517,9 @@ General Class
   height: 100%;
   position: relative;
   margin-left: 336px; }
+  @media (max-width: 767px) {
+    .content {
+      margin-left: 0; } }
 
 .pt-wrapper {
   position: relative;
@@ -1629,7 +1632,7 @@ General Class
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 11; }
+  z-index: 100; }
 
 a.mobile-menu-opener {
   position: absolute;
@@ -1680,23 +1683,6 @@ a.mobile-menu-opener {
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -ms-transform: none; }
-
-.sidebar {
-  position: fixed !important;
-  width: 336px;
-  background-color: #1C1D22;
-  border-top: 6px solid #F9CA2B;
-  z-index: 9999;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
-  @media (min-width: 992px) {
-    .sidebar {
-      position: static;
-      overflow-y: visible;
-      height: auto;
-      display: block; } }
 
 .author-image {
   border: 1px solid #333333;
@@ -1975,6 +1961,9 @@ a.mobile-menu-opener {
   @media (max-width: 767px) {
     a.mobile-menu-opener {
       display: block; } }
+
+.mCSB_7_scrollbar {
+  display: none !important; }
 
 /*----------------------------------------*/
 /*  04. About Area

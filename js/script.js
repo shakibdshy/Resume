@@ -18,8 +18,12 @@ Version      : 1.0
 		// preloader();
 
 		// mCustomScrollbar
-		jQuery(".header").mCustomScrollbar();
-		jQuery(".pt-page").mCustomScrollbar();
+		jQuery(".header").mCustomScrollbar({
+			theme: "minimal-dark",
+		});
+		jQuery(".pt-page").mCustomScrollbar({
+			theme: "minimal-dark",
+		});
 
 	});
 
@@ -27,13 +31,13 @@ Version      : 1.0
 	$('#menu .mobile-menu-opener').on('click', function (e) {
 		e.preventDefault();
 		var div = $('#menu');
-		if (div.css('left') === '-220px') {
+		if (div.css('left') === '-336px') {
 			$('#menu').animate({
 				left: '0px'
 			});
 		} else {
 			$('#menu').animate({
-				left: '-220px'
+				left: '-336px'
 			});
 		}
 	});
@@ -43,7 +47,7 @@ Version      : 1.0
 		e.preventDefault();
 		if ($(window).width() < 767) {
 			$('#menu').animate({
-				left: '-220px'
+				left: '-336px'
 			});
 		} else {
 			$('#menu').animate({
@@ -56,7 +60,7 @@ Version      : 1.0
 		//e.preventDefault();
 		if ($(window).width() < 767) {
 			$('#menu').animate({
-				left: '-220px'
+				left: '-336px'
 			});
 		} else {
 			$('#menu').animate({

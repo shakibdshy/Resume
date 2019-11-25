@@ -310,7 +310,9 @@ General Class
 	height: 100%;
 	position: relative;
 	margin-left: 336px;
-
+	@media #{$xs}{
+		margin-left: 0;
+	}
 }
 
 .pt-wrapper {

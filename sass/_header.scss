@@ -8,8 +8,10 @@
    position: fixed;
    top: 0;
    left: 0;
-   z-index: 11;
-
+   z-index: 100;
+   @media #{$xs}{
+      
+   }
 }
 
 a.mobile-menu-opener {
@@ -71,27 +73,6 @@ a.mobile-menu-opener {
    -ms-transform: none;
 }
 
-
-
-
-
-.sidebar{
-   position: fixed !important;
-   width: 336px;
-   background-color: $header-color;
-   border-top: 6px solid $yellow;
-   z-index: 9999;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   @media #{$lg}{
-      position: static;
-      overflow-y: visible;
-      height: auto;
-      display: block;
-   }
-}
 .author-image{
    border: 1px solid $black;
    width: 196px;
@@ -416,4 +397,8 @@ a.mobile-menu-opener {
    @media #{$xs} {
       display: block;
    }
+}
+
+.mCSB_7_scrollbar{
+   display: none !important;
 }
