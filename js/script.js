@@ -31,13 +31,13 @@ Version      : 1.0
 	$('#menu .mobile-menu-opener').on('click', function (e) {
 		e.preventDefault();
 		var div = $('#menu');
-		if (div.css('left') === '-336px') {
+		if (div.css('left') === '-250px') {
 			$('#menu').animate({
 				left: '0px'
 			});
 		} else {
 			$('#menu').animate({
-				left: '-336px'
+				left: '-250px'
 			});
 		}
 	});
@@ -47,7 +47,7 @@ Version      : 1.0
 		e.preventDefault();
 		if ($(window).width() < 767) {
 			$('#menu').animate({
-				left: '-336px'
+				left: '-250px'
 			});
 		} else {
 			$('#menu').animate({
@@ -60,7 +60,7 @@ Version      : 1.0
 		//e.preventDefault();
 		if ($(window).width() < 767) {
 			$('#menu').animate({
-				left: '-336px'
+				left: '-250px'
 			});
 		} else {
 			$('#menu').animate({

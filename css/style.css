@@ -235,6 +235,15 @@ Version      : 1.0
     width: 64%;
     line-height: 26px;
     margin-bottom: 0; }
+    @media (min-width: 992px) {
+      .section-title p, .section-title-white p {
+        width: 80%; } }
+    @media (min-width: 768px) {
+      .section-title p, .section-title-white p {
+        width: 100%; } }
+    @media (max-width: 767px) {
+      .section-title p, .section-title-white p {
+        width: 100%; } }
 
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -515,11 +524,16 @@ General Class
 
 .content {
   height: 100%;
-  position: relative;
-  margin-left: 336px; }
+  position: relative; }
   @media (max-width: 767px) {
     .content {
       margin-left: 0; } }
+  @media (min-width: 768px) {
+    .content {
+      margin-left: 250px; } }
+  @media (min-width: 992px) {
+    .content {
+      margin-left: 336px; } }
 
 .pt-wrapper {
   position: relative;
@@ -1626,13 +1640,21 @@ General Class
 /*  03. Header Area
 /*----------------------------------------*/
 .header {
-  width: 336px;
   height: 100%;
   background: #1C1D22;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100; }
+  @media (max-width: 767px) {
+    .header {
+      width: 250px; } }
+  @media (min-width: 768px) {
+    .header {
+      width: 250px; } }
+  @media (min-width: 992px) {
+    .header {
+      width: 336px; } }
 
 a.mobile-menu-opener {
   position: absolute;
@@ -1766,46 +1788,62 @@ a.mobile-menu-opener {
   color: #000;
   font-family: "Josefin Sans", sans-serif; }
 
-.sidebar-link {
-  padding-left: 70px;
-  padding-right: 70px; }
-  .sidebar-link nav li {
-    position: relative; }
-    .sidebar-link nav li a {
-      font-size: 14px;
-      color: #6A6B70;
-      text-transform: uppercase;
-      font-family: "Josefin Sans", sans-serif;
-      font-weight: 600;
-      padding-top: 15px;
-      padding-bottom: 14px;
-      display: block;
-      -webkit-transition: 0.3s ease-out;
-      -o-transition: 0.3s ease-out;
-      transition: 0.3s ease-out; }
-      .sidebar-link nav li a:hover {
-        color: #F9CA2B; }
-      .sidebar-link nav li a img {
-        margin-right: 10px; }
-    .sidebar-link nav li::before {
-      position: absolute;
-      content: '';
-      width: 195px;
-      height: 1px;
-      background: #333333;
-      left: 0;
-      right: 0;
-      margin: auto; }
-    .sidebar-link nav li:last-child::after {
-      position: absolute;
-      content: '';
-      width: 195px;
-      height: 1px;
-      background: #333333;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto; }
+@media (max-width: 767px) {
+  .sidebar-link {
+    padding: 0 20px; } }
+
+@media (min-width: 768px) {
+  .sidebar-link {
+    padding: 0 20px; } }
+
+@media (min-width: 992px) {
+  .sidebar-link {
+    padding-left: 70px;
+    padding-right: 70px; } }
+
+.sidebar-link nav li {
+  position: relative; }
+  .sidebar-link nav li a {
+    font-size: 14px;
+    color: #6A6B70;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    display: block;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
+    .sidebar-link nav li a:hover {
+      color: #F9CA2B; }
+    .sidebar-link nav li a img {
+      margin-right: 10px; }
+    @media (min-width: 768px) {
+      .sidebar-link nav li a {
+        text-align: center; } }
+  .sidebar-link nav li::before {
+    position: absolute;
+    content: '';
+    width: 195px;
+    height: 1px;
+    background: #333333;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    @media (min-width: 768px) {
+      .sidebar-link nav li::before {
+        width: 100%; } }
+  .sidebar-link nav li:last-child::after {
+    position: absolute;
+    content: '';
+    width: 195px;
+    height: 1px;
+    background: #333333;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
 
 .sidebar-s-link {
   text-align: center;
@@ -2083,6 +2121,15 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .skill-area p {
   width: 55%; }
+  @media (min-width: 992px) {
+    .skill-area p {
+      width: 80%; } }
+  @media (min-width: 768px) {
+    .skill-area p {
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .skill-area p {
+      width: 100%; } }
 
 .skill {
   margin-bottom: 35px;
@@ -2219,6 +2266,12 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .education-area p {
   width: 64%; }
+  @media (max-width: 767px) {
+    .education-area p {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .education-area p {
+      width: 100%; } }
 
 .edu-inner,
 .exp-inner {
@@ -2363,6 +2416,12 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .experience-area .section-title p {
   width: 85%; }
+  @media (min-width: 768px) {
+    .experience-area .section-title p {
+      width: 100%; } }
+  @media (max-width: 767px) {
+    .experience-area .section-title p {
+      width: 100%; } }
 
 .exp-content {
   background: #1C1D22; }
@@ -2594,3 +2653,5 @@ footer {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
     color: #6A6B70; }
+
+/*# sourceMappingURL=style.css.map */

@@ -26,5 +26,16 @@
         width: 64%;
         line-height: 26px;
         margin-bottom: 0;
+        @media #{$lg} {
+            width: 80%;
+        }
+
+        @media #{$md} {
+            width: 100%;
+        }
+
+        @media #{$xs} {
+            width: 100%;
+        }
     }
 }

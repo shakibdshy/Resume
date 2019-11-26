@@ -309,9 +309,14 @@ General Class
 .content {
 	height: 100%;
 	position: relative;
-	margin-left: 336px;
-	@media #{$xs}{
+	@media #{$xs} {
 		margin-left: 0;
+	}
+	@media #{$md} {
+		margin-left: 250px;
+	}
+	@media #{$lg}{
+		margin-left: 336px;
 	}
 }
 

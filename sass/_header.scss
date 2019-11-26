@@ -2,14 +2,21 @@
 /*  03. Header Area
 /*----------------------------------------*/
 .header {
-   width: 336px; 
    height: 100%;
    background: #1C1D22;
    position: fixed;
    top: 0;
    left: 0;
    z-index: 100;
-  
+   @media #{$xs} {
+      width: 250px;
+   }
+   @media #{$md} {
+      width: 250px;
+   }
+   @media #{$lg} {
+      width: 336px;
+   }
 }
 
 a.mobile-menu-opener {
@@ -166,8 +173,17 @@ a.mobile-menu-opener {
 
 // Sidebar Menu 
 .sidebar-link{
-   padding-left: 70px;
-   padding-right: 70px;
+   @media #{$xs} {
+      padding: 0 20px;
+   }
+   @media #{$md}{
+      padding: 0 20px; 
+   }
+   @media #{$lg} {
+      padding-left: 70px;
+      padding-right: 70px;
+   }
+   
    nav{
       li{
          position: relative;
@@ -187,6 +203,9 @@ a.mobile-menu-opener {
             img{
                margin-right: 10px;
             }
+            @media #{$md} {
+               text-align: center;
+            }
          }
          &::before{
             position: absolute;
@@ -197,6 +216,9 @@ a.mobile-menu-opener {
             left: 0;
             right: 0;
             margin: auto;
+            @media #{$md}{
+               width: 100%;
+            }
          }
          &:last-child::after{
             position: absolute;

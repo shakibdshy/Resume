@@ -153,7 +153,16 @@
 .skill-area{
    p{
       width: 55%;
-   }
+      @media #{$lg}{
+         width: 80%;
+      }
+      @media #{$md}{
+         width: 100%;
+      }
+      @media #{$xs}{
+         width: 100%;
+      }
+   } 
 }
 .skill {
    margin-bottom: 35px;
@@ -307,6 +316,12 @@
 .education-area{
    p{
       width: 64%;
+      @media #{$xs}{
+         width: 100%;
+      }
+      @media #{$md}{
+         width: 100%;
+      }
    }
 }
 .edu-inner,
@@ -478,6 +493,14 @@
    .section-title{
       p{
          width: 85%;
+
+         @media #{$md} {
+            width: 100%;
+         }
+
+         @media #{$xs} {
+            width: 100%;
+         }
       }
    }
 }
