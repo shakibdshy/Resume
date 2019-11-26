@@ -70,37 +70,46 @@ Version      : 1.0
 	});
 
 	// Skill Area 
-	new WOW().init();
+	$('.circlechart').circlechart();
+
 
 	// Language
 	
 	$("#skill1").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
 		duration: 3000,
 	});
 	$("#skill2").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#skill3").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#skill4").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#skill5").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#prototype").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#photography").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#brainstorming").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 	$("#creative").barfiller({
-		barColor: "#F9CA2B",
+		barColor: "#fff",
+		duration: 3000,
 	});
 
 
