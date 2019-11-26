@@ -70,7 +70,7 @@ Version      : 1.0
 	});
 
 	// Skill Area 
-	$('.circlechart').circlechart();
+	
 
 
 	// Language

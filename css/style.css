@@ -2304,10 +2304,9 @@ a.mobile-menu-opener {
 .languages-area {
   padding-top: 40px; }
 
-.percircle {
-  font-size: 150px;
-  margin-left: 25px;
-  margin-bottom: 20px; }
+.circle-chart__percent {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff; }
 
 .lang-name {
   text-align: center; }
