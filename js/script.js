@@ -74,32 +74,33 @@ Version      : 1.0
 
 	// Language
 	
-	$("#english").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#skill1").barfiller({
+		barColor: "#F9CA2B",
+		duration: 3000,
 	});
-	$("#french").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#skill2").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#arabic").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#skill3").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#bengali").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#skill4").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#design").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#skill5").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#prototype").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#prototype").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#photography").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#photography").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#brainstorming").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#brainstorming").barfiller({
+		barColor: "#F9CA2B",
 	});
-	$("#creative").percircle({
-		progressBarColor: "#F9CA2B",
+	$("#creative").barfiller({
+		barColor: "#F9CA2B",
 	});
 
 
