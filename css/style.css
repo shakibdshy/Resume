@@ -2161,6 +2161,14 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  05. Skill Area
 /*----------------------------------------*/
+@media (max-width: 767px) {
+  .skill-area {
+    padding-top: 24px; } }
+
+@media (min-width: 768px) {
+  .skill-area {
+    padding-top: 24px; } }
+
 @media (min-width: 992px) {
   .skill-area {
     padding-top: 24px; } }

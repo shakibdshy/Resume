@@ -154,6 +154,12 @@
 /*  05. Skill Area
 /*----------------------------------------*/
 .skill-area{
+   @media #{$xs}{
+      padding-top: 24px; 
+   }
+   @media #{$md}{
+      padding-top: 24px; 
+   }
    @media #{$lg}{
       padding-top: 24px;
    }
