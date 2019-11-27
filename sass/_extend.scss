@@ -39,13 +39,24 @@
         }
     }
 }
-%devider{
+%devider1{
     position: relative;
     &::before {
         position: absolute;
         content: "";
         width: 3px;
-        height: 200px;
+        height: 530px;
+        background-color: $yellow;
+        top: 50px;
+    }
+}
+%devider2{
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 648px;
         background-color: $yellow;
         top: 50px;
     }
