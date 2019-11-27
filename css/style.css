@@ -649,30 +649,6 @@ General Class
     .section-wrapper {
       padding: 150px; } }
 
-.skill-area,
-.education-area,
-.languages-area,
-.experience-area,
-.portfolio-area,
-.service-area,
-.contact-area,
-.skill1-area,
-.edu1-area,
-.lang1-area {
-  padding-top: 47px; }
-  @media (min-width: 1367px) {
-    .skill-area,
-    .education-area,
-    .languages-area,
-    .experience-area,
-    .portfolio-area,
-    .service-area,
-    .contact-area,
-    .skill1-area,
-    .edu1-area,
-    .lang1-area {
-      padding-top: 150px; } }
-
 .title {
   text-transform: uppercase;
   color: #F9CA2B;
@@ -2460,6 +2436,9 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .languages-area {
   padding-top: 17px; }
+  @media (min-width: 1367px) {
+    .languages-area {
+      padding-top: 70px; } }
   @media (max-width: 767px) {
     .languages-area .section-title {
       margin-bottom: 0px; } }
@@ -2543,6 +2522,9 @@ a.mobile-menu-opener {
   @media (min-width: 1200px) {
     .experience-area {
       padding-top: 47px; } }
+  @media (min-width: 1367px) {
+    .experience-area {
+      padding-top: 100px; } }
   @media (max-width: 767px) {
     .experience-area .section-title {
       margin-bottom: 0; } }

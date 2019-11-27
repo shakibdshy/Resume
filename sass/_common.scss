@@ -404,21 +404,6 @@ General Class
 	}
 }
 
-.skill-area,
-.education-area,
-.languages-area,
-.experience-area,
-.portfolio-area,
-.service-area,
-.contact-area,
-.skill1-area,
-.edu1-area,
-.lang1-area {
-	padding-top: 47px;
-	@media #{$desktop} {
-		padding-top: 150px;
-	}
-}
 .title{
 	text-transform: uppercase;
 	color: $yellow;

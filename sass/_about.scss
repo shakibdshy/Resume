@@ -459,6 +459,9 @@
 /*----------------------------------------*/
 .languages-area{
    padding-top: 17px;
+   @media #{$desktop} {
+      padding-top: 70px;
+   }
    .section-title{
       @media #{$xs}{
          margin-bottom: 0px;
@@ -549,6 +552,9 @@
    }
    @media #{$xl}{
       padding-top: 47px;
+   }
+   @media #{$desktop} {
+      padding-top: 100px;
    }
    .section-title{
       @media #{$xs} {
