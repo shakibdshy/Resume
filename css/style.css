@@ -2252,7 +2252,7 @@ a.mobile-menu-opener {
   .education-area p {
     width: 100%; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .education-area p {
     width: 64%; } }
 
@@ -2275,12 +2275,23 @@ a.mobile-menu-opener {
 .edu-date, .exp-date {
   color: #fff;
   font-size: 18px;
-  margin-right: 30px;
-  margin-top: 30px;
   position: relative; }
   .edu-date::before, .exp-date::before {
     position: absolute;
     content: ''; }
+  @media (max-width: 767px) {
+    .edu-date, .exp-date {
+      margin-right: 0;
+      margin-top: 23px; } }
+  @media (min-width: 768px) {
+    .edu-date, .exp-date {
+      margin-right: 0;
+      margin-top: 23px;
+      margin-bottom: 24px; } }
+  @media (min-width: 1200px) {
+    .edu-date, .exp-date {
+      margin-right: 30px;
+      margin-top: 30px; } }
 
 .edu-content,
 .exp-content {
@@ -2332,8 +2343,19 @@ a.mobile-menu-opener {
 .exp-content {
   border: 1px solid #6A6B70;
   padding: 30px;
-  margin-left: 30px;
   margin-bottom: 30px; }
+  @media (max-width: 767px) {
+    .edu-content,
+    .exp-content {
+      margin-left: 0; } }
+  @media (min-width: 768px) {
+    .edu-content,
+    .exp-content {
+      margin-left: 0; } }
+  @media (min-width: 1200px) {
+    .edu-content,
+    .exp-content {
+      margin-left: 30px; } }
   .edu-content h4, .exp-content h4 {
     color: #F9CA2B;
     font-size: 22px; }
