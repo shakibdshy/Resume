@@ -5,6 +5,17 @@
    padding-top: 25px;
 }
 .contact-details{
+   @media #{$lg} {
+      margin-bottom: 0;
+   }
+
+   @media #{$md} {
+      margin-bottom: 30px;
+   }
+
+   @media #{$xs} {
+      margin-bottom: 30px;
+   }
    h4{
       font-size: 20px;
       font-family: $josefin;
@@ -20,6 +31,15 @@
          }
          li{
             margin-top: 0;
+         }
+         @media #{$lg}{
+            margin-top: 40px;
+         }
+         @media #{$md}{
+            margin-top: 30px;
+         }
+         @media #{$xs}{
+            margin-top: 30px;
          }
       }
    }

@@ -2728,6 +2728,18 @@ a.mobile-menu-opener {
 .contact-area {
   padding-top: 25px; }
 
+@media (min-width: 992px) {
+  .contact-details {
+    margin-bottom: 0; } }
+
+@media (min-width: 768px) {
+  .contact-details {
+    margin-bottom: 30px; } }
+
+@media (max-width: 767px) {
+  .contact-details {
+    margin-bottom: 30px; } }
+
 .contact-details h4 {
   font-size: 20px;
   font-family: "Josefin Sans", sans-serif;
@@ -2741,6 +2753,15 @@ a.mobile-menu-opener {
     margin-top: 0; }
   .contact-details ul li li {
     margin-top: 0; }
+  @media (min-width: 992px) {
+    .contact-details ul li {
+      margin-top: 40px; } }
+  @media (min-width: 768px) {
+    .contact-details ul li {
+      margin-top: 30px; } }
+  @media (max-width: 767px) {
+    .contact-details ul li {
+      margin-top: 30px; } }
 
 .contact-form input, .contact-form textarea {
   width: 100%;
