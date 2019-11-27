@@ -2911,10 +2911,9 @@ a.mobile-menu-opener {
     font-size: 22px; }
 
 footer {
-  padding: 0 50px; }
-  @media (min-width: 1367px) {
-    footer {
-      padding: 0 150px; } }
+  padding: 0 50px;
+  padding-bottom: 45px;
+  background-color: #141414; }
   footer span {
     font-size: 14px;
     font-family: "Josefin Sans", sans-serif;

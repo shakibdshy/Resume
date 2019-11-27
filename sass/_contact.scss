@@ -77,9 +77,8 @@
 
 footer{
    padding: 0 50px;
-   @media #{$desktop}{
-      padding: 0 150px;
-   }
+   padding-bottom: 45px;
+   background-color: #141414;
    span{
       font-size: 14px;
       font-family: $josefin;
