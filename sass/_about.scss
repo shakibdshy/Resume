@@ -456,6 +456,12 @@
 .languages-area{
    padding-top: 17px;
    .section-title{
+      @media #{$xs}{
+         margin-bottom: 0px;
+      }
+      @media #{$md}{
+         margin-bottom: 0px;
+      }
       @media #{$lg}{
          margin-bottom: 0px;
       }

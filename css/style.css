@@ -2449,6 +2449,12 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .languages-area {
   padding-top: 17px; }
+  @media (max-width: 767px) {
+    .languages-area .section-title {
+      margin-bottom: 0px; } }
+  @media (min-width: 768px) {
+    .languages-area .section-title {
+      margin-bottom: 0px; } }
   @media (min-width: 992px) {
     .languages-area .section-title {
       margin-bottom: 0px; } }
