@@ -76,6 +76,9 @@ a.mobile-menu-opener {
    -moz-transform: translate3d(0, 0, 0);
    transform: translate3d(0, 0, 0);
    -ms-transform: none;
+   @media #{$desktop}{
+      padding: 150px 0;
+   }
 }
 
 .author-image{
