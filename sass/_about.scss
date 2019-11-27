@@ -1,6 +1,9 @@
 /*----------------------------------------*/
 /*  04. About Area
 /*----------------------------------------*/
+.about-area{
+   margin-bottom: 23px;
+}
 .about-content{
    li{
       line-height: 32px;
@@ -151,6 +154,9 @@
 /*  05. Skill Area
 /*----------------------------------------*/
 .skill-area{
+   @media #{$xl}{
+      padding-top: 27px;
+   }
    p{
       @media #{$xs} {
          width: 100%;
@@ -166,7 +172,9 @@
       }
    } 
 }
-
+#skill10{
+   margin-bottom: 0; 
+}
 /* SKILL 1 */
 .barfiller {
    width: 100%;
@@ -240,6 +248,7 @@
 /*  06. Education Area
 /*----------------------------------------*/
 .education-area{
+   padding-top: 27px; 
    p{
       @media #{$xs}{
          width: 100%;
@@ -337,12 +346,10 @@
    margin-bottom: 30px;
    @media #{$xs} {
       margin-left: 0;
-   }
-
+   } 
    @media #{$md} {
       margin-left: 0;
    }
-
    @media #{$xl} {
       margin-left: 30px;
    }
@@ -435,11 +442,20 @@
 /*----------------------------------------*/
 .languages-area{
    padding-top: 17px;
+   .section-title{
+      @media #{$xl}{
+         margin-bottom: 5px;
+      }
+   }
 }
 .progress-percentage {
-   font-size: 25px;
-   transform: translate(-50%, -85%);
+   font-size: 18px;
+   transform: translate(-50%, -50%);
    color: #fff;
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
 }
 .lang-name{
    text-align: center;
@@ -449,7 +465,7 @@
       border: 1px solid #3F3F42;
       background-color: $header-color;
       padding: 10px 20px;
-      margin-top: 10px;
+      display: inline-block;
       @include property();
       &:hover{
          background-color: $yellow;
@@ -486,6 +502,10 @@
 /*  08. Experience Area
 /*----------------------------------------*/
 .experience-area{
+   padding-top: 37px;
+   @media #{$xl}{
+      padding-top: 47px;
+   }
    .section-title{
       p{
          

@@ -16,7 +16,7 @@
     border: 1px solid $black;
 }
 %section-title{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     h3{
         text-transform: uppercase;
         color: $yellow;
@@ -30,9 +30,6 @@
         }
         @media #{$md} {
             width: 100%;
-        }
-        @media #{$lg} {
-            width: 80%;
         }
         @media #{$xl} {
             width: 64%;

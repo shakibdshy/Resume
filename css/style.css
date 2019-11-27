@@ -226,7 +226,7 @@ Version      : 1.0
   border: 1px solid #333333; }
 
 .section-title, .section-title-white {
-  margin-bottom: 40px; }
+  margin-bottom: 25px; }
   .section-title h3, .section-title-white h3 {
     text-transform: uppercase;
     color: #F9CA2B;
@@ -240,9 +240,6 @@ Version      : 1.0
     @media (min-width: 768px) {
       .section-title p, .section-title-white p {
         width: 100%; } }
-    @media (min-width: 992px) {
-      .section-title p, .section-title-white p {
-        width: 80%; } }
     @media (min-width: 1200px) {
       .section-title p, .section-title-white p {
         width: 64%; } }
@@ -2048,6 +2045,9 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  04. About Area
 /*----------------------------------------*/
+.about-area {
+  margin-bottom: 23px; }
+
 .about-content li {
   line-height: 32px;
   font-family: "Josefin Sans", sans-serif; }
@@ -2161,6 +2161,10 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  05. Skill Area
 /*----------------------------------------*/
+@media (min-width: 1200px) {
+  .skill-area {
+    padding-top: 27px; } }
+
 @media (max-width: 767px) {
   .skill-area p {
     width: 100%; } }
@@ -2176,6 +2180,9 @@ a.mobile-menu-opener {
 @media (min-width: 1200px) {
   .skill-area p {
     width: 55%; } }
+
+#skill10 {
+  margin-bottom: 0; }
 
 /* SKILL 1 */
 .barfiller {
@@ -2244,17 +2251,17 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  06. Education Area
 /*----------------------------------------*/
-@media (max-width: 767px) {
-  .education-area p {
-    width: 100%; } }
-
-@media (min-width: 768px) {
-  .education-area p {
-    width: 100%; } }
-
-@media (min-width: 1200px) {
-  .education-area p {
-    width: 64%; } }
+.education-area {
+  padding-top: 27px; }
+  @media (max-width: 767px) {
+    .education-area p {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .education-area p {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    .education-area p {
+      width: 64%; } }
 
 .edu-inner,
 .exp-inner {
@@ -2431,13 +2438,18 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .languages-area {
   padding-top: 17px; }
+  @media (min-width: 1200px) {
+    .languages-area .section-title {
+      margin-bottom: 5px; } }
 
 .progress-percentage {
-  font-size: 25px;
-  -webkit-transform: translate(-50%, -85%);
-  -ms-transform: translate(-50%, -85%);
-  transform: translate(-50%, -85%);
-  color: #fff; }
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%); }
 
 .lang-name {
   text-align: center; }
@@ -2447,7 +2459,7 @@ a.mobile-menu-opener {
     border: 1px solid #3F3F42;
     background-color: #1C1D22;
     padding: 10px 20px;
-    margin-top: 10px;
+    display: inline-block;
     -webkit-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out; }
@@ -2478,17 +2490,20 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  08. Experience Area
 /*----------------------------------------*/
-@media (max-width: 767px) {
-  .experience-area .section-title p {
-    width: 100%; } }
-
-@media (min-width: 768px) {
-  .experience-area .section-title p {
-    width: 100%; } }
-
-@media (min-width: 992px) {
-  .experience-area .section-title p {
-    width: 85%; } }
+.experience-area {
+  padding-top: 37px; }
+  @media (min-width: 1200px) {
+    .experience-area {
+      padding-top: 47px; } }
+  @media (max-width: 767px) {
+    .experience-area .section-title p {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .experience-area .section-title p {
+      width: 100%; } }
+  @media (min-width: 992px) {
+    .experience-area .section-title p {
+      width: 85%; } }
 
 .exp-content {
   background: #1C1D22; }
