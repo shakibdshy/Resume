@@ -140,19 +140,31 @@ Version      : 1.0
 		barColor: "#fff",
 		duration: 3000,
 	});
-	$("#prototype").barfiller({
+	$("#skill6").barfiller({
 		barColor: "#fff",
 		duration: 3000,
 	});
-	$("#photography").barfiller({
+	$("#skill7").barfiller({
 		barColor: "#fff",
 		duration: 3000,
 	});
-	$("#brainstorming").barfiller({
+	$("#skill8").barfiller({
 		barColor: "#fff",
 		duration: 3000,
 	});
-	$("#creative").barfiller({
+	$("#skill9").barfiller({
+		barColor: "#fff",
+		duration: 3000,
+	});
+	$("#skill10").barfiller({
+		barColor: "#fff",
+		duration: 3000,
+	});
+	$("#skill11").barfiller({
+		barColor: "#fff",
+		duration: 3000,
+	});
+	$("#skill12").barfiller({
 		barColor: "#fff",
 		duration: 3000,
 	});
