@@ -154,6 +154,9 @@
 /*  05. Skill Area
 /*----------------------------------------*/
 .skill-area{
+   @media #{$lg}{
+      padding-top: 24px;
+   }
    @media #{$xl}{
       padding-top: 27px;
    }
@@ -249,6 +252,11 @@
 /*----------------------------------------*/
 .education-area{
    padding-top: 27px; 
+   .section-title{
+      @media #{$lg}{
+         
+      }
+   }
    p{
       @media #{$xs}{
          width: 100%;
@@ -282,12 +290,11 @@
    }
    @media #{$xs}{
       margin-right: 0;
-      margin-top: 23px;
+      margin-top: 30px;
    }
    @media #{$md}{
       margin-right: 0;
-      margin-top: 23px;
-      margin-bottom: 24px;
+      margin-bottom: 30px;
    }
    @media #{$xl}{
       margin-right: 30px;
@@ -443,9 +450,21 @@
 .languages-area{
    padding-top: 17px;
    .section-title{
+      @media #{$lg}{
+         margin-bottom: 0px;
+      }
       @media #{$xl}{
          margin-bottom: 5px;
       }
+   }
+}
+.single-circle{
+   @media #{$lg} {
+      margin-top: 8px;
+   }
+
+   @media #{$xl} {
+      margin-top: 0;
    }
 }
 .progress-percentage {
