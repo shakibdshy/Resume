@@ -551,6 +551,9 @@
       padding-top: 47px;
    }
    .section-title{
+      @media #{$xs} {
+         margin-bottom: 0;
+      }
       p{
          
          @media #{$xs} {

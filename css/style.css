@@ -2541,6 +2541,9 @@ a.mobile-menu-opener {
     .experience-area {
       padding-top: 47px; } }
   @media (max-width: 767px) {
+    .experience-area .section-title {
+      margin-bottom: 0; } }
+  @media (max-width: 767px) {
     .experience-area .section-title p {
       width: 100%; } }
   @media (min-width: 768px) {
