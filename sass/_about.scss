@@ -534,6 +534,12 @@
 /*----------------------------------------*/
 .experience-area{
    padding-top: 37px;
+   @media #{$xs}{
+      padding-top: 45px; 
+   }
+   @media #{$md}{
+      padding-top: 45px; 
+   }
    @media #{$lg}{
       padding-top: 44px;
    }

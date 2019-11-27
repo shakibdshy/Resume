@@ -2520,6 +2520,12 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .experience-area {
   padding-top: 37px; }
+  @media (max-width: 767px) {
+    .experience-area {
+      padding-top: 45px; } }
+  @media (min-width: 768px) {
+    .experience-area {
+      padding-top: 45px; } }
   @media (min-width: 992px) {
     .experience-area {
       padding-top: 44px; } }
