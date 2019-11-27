@@ -1756,6 +1756,10 @@ a.mobile-menu-opener {
     .pt-page .section-inner {
       padding: 150px 0; } }
 
+@media (min-width: 1200px) {
+  .start-page-full-width {
+    padding: 100px 50px !important; } }
+
 .author-image {
   border: 1px solid #333333;
   width: 196px;
@@ -2079,8 +2083,8 @@ a.mobile-menu-opener {
   position: relative; }
   .about-area1 .cv {
     position: absolute;
-    right: 0;
-    top: -70px; }
+    right: -50px;
+    top: -100px; }
     @media (min-width: 1367px) {
       .about-area1 .cv {
         right: 0;

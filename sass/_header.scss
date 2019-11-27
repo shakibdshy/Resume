@@ -81,6 +81,11 @@ a.mobile-menu-opener {
    }
 }
 
+.start-page-full-width {
+   @media #{$xl} {
+      padding: 100px 50px !important;
+   }
+}
 .author-image{
    border: 1px solid $black;
    width: 196px;

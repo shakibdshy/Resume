@@ -32,8 +32,8 @@
 
    .cv {
       position: absolute;
-      right: 0;
-      top: -70px;
+      right: -50px;
+      top: -100px; 
       @media #{$desktop}{
          right: 0;
          top: -150px;
