@@ -1,5 +1,5 @@
 /*
-Template Name: JUK. - Personal CV/Resume & vCard Template
+Template Name: Resume. - Personal CV/Resume & vCard Template
 Author       : theme_crazy
 Version      : 1.0
 */
@@ -159,6 +159,50 @@ Version      : 1.0
 			percent: 0, // percent starts from
 			percentage: true,
 			text: ""
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar5").circularProgress({	
+			width: "250px",
+			height: "250px",
+			line_width: 6,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: "Interface Design"
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar6").circularProgress({	
+			width: "250px",
+			height: "250px",
+			line_width: 6,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: "Prototype"
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar7").circularProgress({	
+			width: "250px",
+			height: "250px",
+			line_width: 6,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: "Photography"
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar8").circularProgress({	
+			width: "250px",
+			height: "250px",
+			line_width: 6,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: "Brainstorming"
 		}).circularProgress('animate', 85, 5000);
 
 	});
