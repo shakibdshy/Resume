@@ -572,6 +572,9 @@ General Class
     .content {
       margin-left: 336px; } }
 
+.content2 {
+  margin-left: 142px; }
+
 .pt-wrapper {
   position: relative;
   width: 100%;
@@ -1877,25 +1880,25 @@ a.mobile-menu-opener {
       display: block; }
 
 /*--------------------------------HomePage 2---------------------------------------*/
-.sidebar2 {
+.header2 {
   width: 142px;
   position: relative;
   z-index: 999; }
-  .sidebar2 .sidebar-link {
+  .header2 .sidebar-link {
     padding-left: 0px;
     padding-right: 0px;
     text-align: center; }
-  .sidebar2 .author-name h3 {
+  .header2 .author-name h3 {
     padding: 15px; }
-    .sidebar2 .author-name h3::before {
+    .header2 .author-name h3::before {
       left: 0;
       top: 10px; }
-    .sidebar2 .author-name h3::after {
+    .header2 .author-name h3::after {
       right: 0;
       bottom: 10px; }
-  .sidebar2 nav {
+  .header2 nav {
     padding-top: 40px; }
-    .sidebar2 nav li a {
+    .header2 nav li a {
       padding: 5px;
       text-align: center;
       width: 42px;
@@ -1911,17 +1914,17 @@ a.mobile-menu-opener {
       -webkit-transition: 0.3s ease-out;
       -o-transition: 0.3s ease-out;
       transition: 0.3s ease-out; }
-      .sidebar2 nav li a img {
+      .header2 nav li a img {
         width: 22px;
         height: 22px;
         margin-right: 0; }
-      .sidebar2 nav li a:hover {
+      .header2 nav li a:hover {
         border-color: #F9CA2B; }
-    .sidebar2 nav li::before {
+    .header2 nav li::before {
       width: 0;
       height: 0;
       background: transparent; }
-    .sidebar2 nav li:last-child::after {
+    .header2 nav li:last-child::after {
       width: 0;
       height: 0;
       background: transparent; }
