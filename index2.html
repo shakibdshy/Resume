@@ -10,12 +10,14 @@
    <link rel="stylesheet" href="css/fontawesome.min.css">
    <!-- Ionicons icon -->
    <link rel="stylesheet" href="css/ionicons.min.css">
-   <!-- Percircle CSS -->
-   <link rel="stylesheet" href="css/percircle.css">
+   <!-- progresscircle CSS -->
+   <link rel="stylesheet" href="css/circularProgressbar.css">
    <!-- CustomScrollbar CSS -->
    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Bootstrap -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- Transition Animations CSS -->
+   <link rel="stylesheet" href="css/transition-animations.css">
    <!-- Animated CSS -->
    <link rel="stylesheet" href="css/animate.css">
    <!-- Main CSS -->
@@ -23,49 +25,74 @@
 </head>
 
 <body>
+
+   <div class="content-outer">
+      <!-- Start Header Area -->
+      <header id="menu" class="header">
+         <a href="#" class="mobile-menu-opener"><i class="fas fa-bars"></i></a>
+         <div class="header-inner sidebar-link">
+            <!--Author Name-->
+            <div class="author-name">
+               <h3>R</h3>
+            </div>
+            <!--Author Name-->
+            
+            <!-- Header Menu -->
+            <nav id="navbar">
+               <ul class="nav navbar-nav">
+                  <li class="active">
+                     <a class="pt-trigger" href="javascript:void(0);" data-id="#about-me"><img
+                           src="img/icon/Group 3743@2x.png" alt="Icon"></a>
+                  </li>
+                  <li>
+                     <a class="pt-trigger" href="javascript:void(0);" data-id="#portfolio"><img
+                           src="img/icon/Group 3744@2x.png" alt="Icon"></a></a>
+                  </li>
+                  <li>
+                     <a class="pt-trigger" href="javascript:void(0);" data-id="#service"><img
+                           src="img/icon/Group 3745@2x.png" alt="Icon"></a>
+                  </li>
+                  <li>
+                     <a class="pt-trigger" href="javascript:void(0);" data-id="#contact"><img
+                           src="img/icon/Group 3746@2x.png" alt="Icon"></a>
+                  </li>
+               </ul>
+            </nav>
+            <!-- Header Menu -->
+
+            <!-- Header Bottom -->
+            <div class="sidebar-s-link mt-100">
+               <div class="social-top">
+                  <ul>
+                     <li><a class="border-top-left" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a class="border-top-right" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+               </div>
+               <div class="social-bottom">
+                  <ul>
+                     <li><a class="border-bottom-left" href="#"><i class="fab fa-instagram"></i></a></li>
+                     <li><a class="border-bottom-right" href="#"><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+               </div>
+
+            </div>
+            <!-- Header Bottom -->
+         </div>
+      </header>
+      <!-- End header Area-->
+   </div>
+
+   
+
+
+
+
+
+
    <!-- Container -->
    <div class="container-fluid max-w-xl">
       <div class="row">
-         <!-- Sidebar Area Start -->
          
-         <div id="menu" class="sidebar sidebar2 mCustomScrollbar" data-mcs-theme="minimal-dark">
-            <a href="#" class="mobile-menu-opener"><i class="fas fa-bars"></i></a>
-            <div class="sidebar-link">
-               <!--Author Name-->
-               <div class="author-name">
-                  <h3>R</h3>
-               </div>
-               <!--Author Name-->
-               <!-- Menu Area -->
-               <nav>
-                  <ul>
-                     <li><a href="#about"><img src="img/icon/Group 3743@2x.png" alt="Icon"></a></li>
-                     <li><a href="#portfolio"><img src="img/icon/Group 3744@2x.png" alt="Icon"></a></li>
-                     <li><a href="#services"><img src="img/icon/Group 3745@2x.png" alt="Icon"></a></li>
-                     <li><a href="#contact"><img src="img/icon/Group 3746@2x.png" alt="Icon"></a></li>
-                  </ul>
-               </nav>
-               <!-- Menu Area -->
-
-               <div class="sidebar-s-link mt-100">
-                  <div class="social-top">
-                     <ul>
-                        <li><a class="border-top-left" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="border-top-right" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                     </ul>
-                  </div>
-                  <div class="social-bottom">
-                     <ul>
-                        <li><a class="border-bottom-left" href="#"><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="border-bottom-right" href="#"><i class="fab fa-twitter"></i></a></li>
-                     </ul>
-                  </div>
-                  
-               </div><!-- Header Bottom -->
-
-            </div>
-         </div>
-         <!-- Sidebar Area End -->
          <div class="perspective resume2" style="background: #141414">
             <!--Section Wrapper -->
             <div class="section-wrapper px-0">
@@ -598,12 +625,18 @@
    <script src="js/popper.min.js"></script>
    <!-- Bootstrap js -->
    <script src="js/bootstrap.min.js"></script>
+   <!-- Modernizr js -->
+   <script src="js/modernizr.custom.js"></script>
+   <!-- Pagetransition js -->
+   <script src="js/pagetransitions.js"></script>
+   <!-- progresscircle js -->
+   <script src="js/circularProgressbar.js"></script>
    <!-- WOW js -->
    <script src="js/wow.min.js"></script>
-   <!-- Percircle js -->
-   <script src="js/percircle.js"></script>
    <!-- Isotope js -->
    <script src="js/isotope.pkgd.min.js"></script>
+   <!-- BerFiller js -->
+   <script src="js/jquery.barfiller.js"></script>
    <!-- Google API js -->
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
    <!-- Main js -->
