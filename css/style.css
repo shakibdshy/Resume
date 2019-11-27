@@ -2506,6 +2506,9 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .experience-area {
   padding-top: 37px; }
+  @media (min-width: 992px) {
+    .experience-area {
+      padding-top: 44px; } }
   @media (min-width: 1200px) {
     .experience-area {
       padding-top: 47px; } }
