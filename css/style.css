@@ -2256,9 +2256,44 @@ a.mobile-menu-opener {
     background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
     top: 50px; }
 
-.edu-content {
+.devider4 {
   position: relative; }
-  .edu-content::before {
+  .devider4::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 240px;
+    background: #F9CA2B;
+    top: 50px; }
+
+.devider5 {
+  position: relative; }
+  .devider5::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 240px;
+    background: #F9CA2B;
+    top: 50px; }
+
+.devider6 {
+  position: relative; }
+  .devider6::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 168px;
+    background: transparent -webkit-gradient(linear, left top, left bottom, from(#F9CA2B), to(#000000));
+    background: transparent -webkit-linear-gradient(top, #F9CA2B 0%, #000000 100%);
+    background: transparent -o-linear-gradient(top, #F9CA2B 0%, #000000 100%);
+    background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
+    top: 50px; }
+
+.edu-content,
+.exp-content {
+  position: relative; }
+  .edu-content::before,
+  .exp-content::before {
     position: absolute;
     content: "";
     width: 20px;
@@ -2266,7 +2301,8 @@ a.mobile-menu-opener {
     background-color: #F9CA2B;
     top: 35px;
     left: -39px; }
-  .edu-content::after {
+  .edu-content::after,
+  .exp-content::after {
     position: absolute;
     content: "";
     width: 16px;
@@ -2275,7 +2311,8 @@ a.mobile-menu-opener {
     top: 37px;
     left: -37px; }
 
-.edu-content, .exp-content {
+.edu-content,
+.exp-content {
   border: 1px solid #6A6B70;
   padding: 30px;
   margin-left: 30px;

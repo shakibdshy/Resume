@@ -297,7 +297,41 @@
       top: 50px;
    }
 }
-.edu-content{
+.devider4 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 240px;
+      background: #F9CA2B;
+      top: 50px;
+   }
+}
+.devider5 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 240px;
+      background: #F9CA2B;
+      top: 50px;
+   }
+}
+.devider6 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 168px;
+      background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
+      top: 50px;
+   }
+}
+.edu-content,
+.exp-content {
    position: relative;
    &::before{
       position: absolute;
