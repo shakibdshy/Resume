@@ -264,11 +264,60 @@
       
    }
 }
-// .devider {
-//    width: 3px;
-//    height: 200px;
-//    background: #38383B;
-// }
+.devider1 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 200px;
+      background: #38383B;
+      top: 50px;
+   }
+}
+.devider2 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 200px;
+      background: #F9CA2B;
+      top: 50px;
+   }
+}
+.devider3 {
+   position: relative;
+   &::before{
+      position: absolute;
+      content:"";
+      width: 3px;
+      height: 130px;
+      background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
+      top: 50px;
+   }
+}
+.edu-content{
+   position: relative;
+   &::before{
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-color: $yellow;
+      top: 35px;
+      left: -39px;
+   }
+   &::after{
+      position: absolute;
+      content: "";
+      width: 16px;
+      height: 16px;
+      border: 1px solid $black;
+      top: 37px;
+      left: -37px;
+   }
+}
 .edu-content, .exp-content{
    border: 1px solid $text-color;
    padding: 30px; 

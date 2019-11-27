@@ -2223,6 +2223,58 @@ a.mobile-menu-opener {
     position: absolute;
     content: ''; }
 
+.devider1 {
+  position: relative; }
+  .devider1::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 200px;
+    background: #38383B;
+    top: 50px; }
+
+.devider2 {
+  position: relative; }
+  .devider2::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 200px;
+    background: #F9CA2B;
+    top: 50px; }
+
+.devider3 {
+  position: relative; }
+  .devider3::before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background: transparent -webkit-gradient(linear, left top, left bottom, from(#F9CA2B), to(#000000));
+    background: transparent -webkit-linear-gradient(top, #F9CA2B 0%, #000000 100%);
+    background: transparent -o-linear-gradient(top, #F9CA2B 0%, #000000 100%);
+    background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
+    top: 50px; }
+
+.edu-content {
+  position: relative; }
+  .edu-content::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #F9CA2B;
+    top: 35px;
+    left: -39px; }
+  .edu-content::after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333333;
+    top: 37px;
+    left: -37px; }
+
 .edu-content, .exp-content {
   border: 1px solid #6A6B70;
   padding: 30px;
