@@ -230,7 +230,7 @@ Version      : 1.0
   .section-title h3, .section-title-white h3 {
     text-transform: uppercase;
     color: #F9CA2B;
-    margin-bottom: 5px; }
+    margin-bottom: 12px; }
   .section-title p, .section-title-white p {
     line-height: 26px;
     margin-bottom: 0; }
@@ -662,7 +662,7 @@ General Class
 .skill1-area,
 .edu1-area,
 .lang1-area {
-  padding-top: 65px; }
+  padding-top: 47px; }
   @media (min-width: 1367px) {
     .skill-area,
     .education-area,
@@ -678,10 +678,12 @@ General Class
 
 .title {
   text-transform: uppercase;
-  color: #F9CA2B; }
+  color: #F9CA2B;
+  margin-bottom: 10px; }
 
 .section-title-white h3 {
-  color: #fff; }
+  color: #fff;
+  margin-bottom: 10px; }
 
 .section-title-white p {
   width: 100%; }
@@ -2259,6 +2261,16 @@ a.mobile-menu-opener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media (min-width: 768px) {
+    .edu-inner,
+    .exp-inner {
+      display: block; } }
+  @media (min-width: 1200px) {
+    .edu-inner,
+    .exp-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
 
 .edu-date, .exp-date {
   color: #fff;
@@ -2396,7 +2408,7 @@ a.mobile-menu-opener {
 /*  07. Languages Area
 /*----------------------------------------*/
 .languages-area {
-  padding-top: 40px; }
+  padding-top: 17px; }
 
 .progress-percentage {
   font-size: 25px;

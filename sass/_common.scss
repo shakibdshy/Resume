@@ -414,7 +414,7 @@ General Class
 .skill1-area,
 .edu1-area,
 .lang1-area {
-	padding-top: 65px;
+	padding-top: 47px;
 	@media #{$desktop} {
 		padding-top: 150px;
 	}
@@ -422,6 +422,7 @@ General Class
 .title{
 	text-transform: uppercase;
 	color: $yellow;
+	margin-bottom: 10px;
 }
 .section-title{
 	@extend %section-title;
@@ -430,6 +431,7 @@ General Class
 	@extend %section-title;
 	h3{
 		color: $white;
+		margin-bottom: 10px;
 	}
 	p {
 		width: 100%;

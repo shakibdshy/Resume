@@ -255,6 +255,12 @@
 .edu-inner,
 .exp-inner {
    display: flex;
+   @media #{$md} {
+      display: block;
+   }
+   @media #{$xl}{
+      display: flex;
+   }
 }
 .edu-date, .exp-date{
    color: $white;
@@ -407,7 +413,7 @@
 /*  07. Languages Area
 /*----------------------------------------*/
 .languages-area{
-   padding-top: 40px;
+   padding-top: 17px;
 }
 .progress-percentage {
    font-size: 25px;
