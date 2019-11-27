@@ -2304,8 +2304,11 @@ a.mobile-menu-opener {
 .languages-area {
   padding-top: 40px; }
 
-.circle-chart__percent {
-  font-family: "Josefin Sans", sans-serif;
+.progress-percentage {
+  font-size: 25px;
+  -webkit-transform: translate(-50%, -85%);
+  -ms-transform: translate(-50%, -85%);
+  transform: translate(-50%, -85%);
   color: #fff; }
 
 .lang-name {

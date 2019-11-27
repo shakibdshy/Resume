@@ -70,7 +70,52 @@ Version      : 1.0
 	});
 
 	// Skill Area 
-	
+	$(function () {
+		$(".my-progress-bar1").circularProgress({		
+			width: "150px",
+			height: "150px",
+			line_width: 10,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: ""
+		}).circularProgress('animate', 85, 5000);
+		
+		$(".my-progress-bar2").circularProgress({	
+			width: "150px",
+			height: "150px",
+			line_width: 10,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: ""
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar3").circularProgress({		
+			width: "150px",
+			height: "150px",
+			line_width: 10,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: ""
+		}).circularProgress('animate', 85, 5000);
+
+		$(".my-progress-bar4").circularProgress({	
+			width: "150px",
+			height: "150px",
+			line_width: 10,
+			color: "#F9CA2B", 
+			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
+			percent: 0, // percent starts from
+			percentage: true,
+			text: ""
+		}).circularProgress('animate', 85, 5000);
+
+	});
 
 
 	// Language
