@@ -152,15 +152,17 @@
 /*----------------------------------------*/
 .skill-area{
    p{
-      width: 55%;
-      @media #{$lg}{
+      @media #{$xs} {
+         width: 100%;
+      }
+      @media #{$md} {
+         width: 100%;
+      }
+      @media #{$lg} {
          width: 80%;
       }
-      @media #{$md}{
-         width: 100%;
-      }
-      @media #{$xs}{
-         width: 100%;
+      @media #{$xl}{
+         width: 55%;
       }
    } 
 }
@@ -239,12 +241,14 @@
 /*----------------------------------------*/
 .education-area{
    p{
-      width: 64%;
       @media #{$xs}{
          width: 100%;
       }
       @media #{$md}{
          width: 100%;
+      }
+      @media #{$lg}{
+         width: 64%;
       }
    }
 }
@@ -265,69 +269,44 @@
    }
 }
 .devider1 {
-   position: relative;
+   @extend %devider;
    &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
-      height: 200px;
       background: #38383B;
-      top: 50px;
    }
 }
 .devider2 {
-   position: relative;
+   @extend %devider;
    &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
-      height: 200px;
       background: #F9CA2B;
-      top: 50px;
    }
 }
 .devider3 {
-   position: relative;
+   @extend %devider;
    &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
       height: 130px;
       background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
-      top: 50px;
    }
 }
 .devider4 {
-   position: relative;
-   &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
+   @extend %devider;
+   &::before {
       height: 240px;
       background: #F9CA2B;
-      top: 50px;
    }
 }
 .devider5 {
-   position: relative;
-   &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
+   @extend %devider;
+
+   &::before {
       height: 240px;
       background: #F9CA2B;
-      top: 50px;
    }
 }
 .devider6 {
-   position: relative;
-   &::before{
-      position: absolute;
-      content:"";
-      width: 3px;
+   @extend %devider;
+   &::before {
       height: 168px;
       background: transparent linear-gradient(180deg, #F9CA2B 0%, #000000 100%);
-      top: 50px;
    }
 }
 .edu-content,
@@ -499,14 +478,15 @@
 .experience-area{
    .section-title{
       p{
-         width: 85%;
-
+         
+         @media #{$xs} {
+            width: 100%;
+         }
          @media #{$md} {
             width: 100%;
          }
-
-         @media #{$xs} {
-            width: 100%;
+         @media #{$lg} {
+            width: 85%;
          }
       }
    }

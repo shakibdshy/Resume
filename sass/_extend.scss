@@ -23,19 +23,30 @@
         margin-bottom: 5px;
     }
     p {
-        width: 64%;
         line-height: 26px;
         margin-bottom: 0;
-        @media #{$lg} {
-            width: 80%;
-        }
-
-        @media #{$md} {
-            width: 100%;
-        }
-
         @media #{$xs} {
             width: 100%;
         }
+        @media #{$md} {
+            width: 100%;
+        }
+        @media #{$lg} {
+            width: 80%;
+        }
+        @media #{$xl} {
+            width: 64%;
+        }
+    }
+}
+%devider{
+    position: relative;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 3px;
+        height: 200px;
+        background-color: $yellow;
+        top: 50px;
     }
 }
