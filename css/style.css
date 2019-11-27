@@ -2156,6 +2156,10 @@ a.mobile-menu-opener {
   .skill-area {
     padding-top: 27px; } }
 
+@media (min-width: 1367px) {
+  .skill-area {
+    padding-top: 77px; } }
+
 @media (max-width: 767px) {
   .skill-area p {
     width: 100%; } }
@@ -2244,6 +2248,9 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 .education-area {
   padding-top: 27px; }
+  @media (min-width: 1367px) {
+    .education-area {
+      padding-top: 80px; } }
   @media (max-width: 767px) {
     .education-area .section-title {
       margin-bottom: 0; } }

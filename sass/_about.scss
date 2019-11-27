@@ -166,6 +166,9 @@
    @media #{$xl}{
       padding-top: 27px;
    }
+   @media #{$desktop} {
+      padding-top: 77px;
+   }
    p{
       @media #{$xs} {
          width: 100%;
@@ -258,6 +261,9 @@
 /*----------------------------------------*/
 .education-area{
    padding-top: 27px; 
+   @media #{$desktop} {
+      padding-top: 80px;
+   }
    .section-title{
       @media #{$xs}{
          margin-bottom: 0;
