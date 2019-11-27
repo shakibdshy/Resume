@@ -748,3 +748,22 @@
       }
    }
 }
+
+
+.tech-skill{
+   @media #{$xs} {
+      padding-top: 15px;
+   }
+
+   @media #{$md} {
+      padding-top: 15px;
+   }
+
+   @media #{$lg} {
+      padding-top: 15px;
+   }
+
+   @media #{$xl} {
+      padding-top: 65px;
+   }
+}

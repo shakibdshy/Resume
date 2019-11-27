@@ -2721,6 +2721,22 @@ a.mobile-menu-opener {
 .exp1 .section-title-white p {
   width: 65%; }
 
+@media (max-width: 767px) {
+  .tech-skill {
+    padding-top: 15px; } }
+
+@media (min-width: 768px) {
+  .tech-skill {
+    padding-top: 15px; } }
+
+@media (min-width: 992px) {
+  .tech-skill {
+    padding-top: 15px; } }
+
+@media (min-width: 1200px) {
+  .tech-skill {
+    padding-top: 65px; } }
+
 /*----------------------------------------*/
 /*  10. Header Area
 /*----------------------------------------*/
