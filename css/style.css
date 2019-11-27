@@ -661,8 +661,21 @@ General Class
   color: #fff;
   margin-bottom: 10px; }
 
-.section-title-white p {
-  width: 100%; }
+@media (max-width: 767px) {
+  .section-title-white p {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  .section-title-white p {
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  .section-title-white p {
+    width: 65%; } }
+
+@media (min-width: 1200px) {
+  .section-title-white p {
+    width: 65%; } }
 
 @media (max-width: 767px) {
   .skill1-area {
@@ -2474,6 +2487,19 @@ a.mobile-menu-opener {
       font-family: "Josefin Sans", sans-serif;
       margin-bottom: 0; }
 
+/*----------------------Homepage 2-------------------------*/
+@media (max-width: 767px) {
+  .edu1-area {
+    padding-top: 50px; } }
+
+@media (min-width: 768px) {
+  .edu1-area {
+    padding-top: 50px; } }
+
+@media (min-width: 1200px) {
+  .edu1-area {
+    padding-top: 75px; } }
+
 /*----------------------------------------*/
 /*  07. Languages Area
 /*----------------------------------------*/
@@ -2548,6 +2574,19 @@ a.mobile-menu-opener {
   font-family: "Josefin Sans", sans-serif;
   font-size: 14px; }
 
+/*----------------------Homepage 2-------------------------*/
+@media (max-width: 767px) {
+  .lang1-area {
+    padding-top: 15px; } }
+
+@media (min-width: 768px) {
+  .lang1-area {
+    padding-top: 15px; } }
+
+@media (min-width: 1200px) {
+  .lang1-area {
+    padding-top: 65px; } }
+
 /*----------------------------------------*/
 /*  08. Experience Area
 /*----------------------------------------*/
@@ -2618,9 +2657,6 @@ a.mobile-menu-opener {
   -ms-transform: translate(-50%, 70%);
   -o-transform: translate(-50%, 70%); }
 
-.exp1 .section-title-white p {
-  width: 65%; }
-
 .exp1-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2664,6 +2700,26 @@ a.mobile-menu-opener {
   .exp1-content p {
     font-family: "Josefin Sans", sans-serif;
     margin-bottom: 0; }
+
+/*----------------------Homepage 2-------------------------*/
+@media (max-width: 767px) {
+  .exp1 {
+    padding-top: 37px; } }
+
+@media (min-width: 768px) {
+  .exp1 {
+    padding-top: 37px; } }
+
+@media (min-width: 992px) {
+  .exp1 {
+    padding-top: 37px; } }
+
+@media (min-width: 1200px) {
+  .exp1 {
+    padding-top: 87px; } }
+
+.exp1 .section-title-white p {
+  width: 65%; }
 
 /*----------------------------------------*/
 /*  10. Header Area

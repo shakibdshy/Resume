@@ -421,13 +421,27 @@ General Class
 		margin-bottom: 10px;
 	}
 	p {
-		width: 100%;
+		
+		@media #{$xs} {
+			width: 100%;
+		}
+
+		@media #{$md} {
+			width: 100%;
+		}
+
+		@media #{$lg} {
+			width: 65%; 
+		}
+		@media #{$xl} {
+			width: 65%;
+		}
 	}
 }
 
 
-.skill1-area{	
-	@media #{$xs}{
+.skill1-area{
+	@media #{$xs}{  
 		padding-top: 50px;
 	}
 	@media #{$md}{ 

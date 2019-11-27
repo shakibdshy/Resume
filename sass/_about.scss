@@ -481,6 +481,22 @@
       }
    }
 }
+
+/*----------------------Homepage 2-------------------------*/
+.edu1-area{
+   @media #{$xs} {
+      padding-top: 50px;
+   }
+
+   @media #{$md} {
+      padding-top: 50px;
+   }
+
+   @media #{$xl} {
+      padding-top: 75px;
+   }
+
+}
 /*----------------------------------------*/
 /*  07. Languages Area
 /*----------------------------------------*/
@@ -563,6 +579,18 @@
    }
 }
 
+/*----------------------Homepage 2-------------------------*/
+.lang1-area{
+   @media #{$xs}{
+      padding-top: 15px;
+   }
+   @media #{$md}{
+      padding-top: 15px;
+   }
+   @media #{$xl}{
+      padding-top: 65px;
+   }
+}
 /*----------------------------------------*/
 /*  08. Experience Area
 /*----------------------------------------*/
@@ -647,14 +675,6 @@
    }
 }
 
-.exp1{
-   .section-title-white{
-      p{
-         width: 65%;
-      }
-   }
-}
-
 .exp1-inner{
    display: flex;
    background: #2c2c2c;
@@ -705,5 +725,26 @@
    p{
       font-family: $josefin;
       margin-bottom: 0;
+   }
+}
+
+/*----------------------Homepage 2-------------------------*/
+.exp1 {
+   @media #{$xs}{
+      padding-top: 37px;
+   }
+   @media #{$md}{
+      padding-top: 37px;
+   }
+   @media #{$lg}{
+      padding-top: 37px;
+   }
+   @media #{$xl}{
+      padding-top: 87px;
+   }
+   .section-title-white {
+      p {
+         width: 65%;
+      }
    }
 }
