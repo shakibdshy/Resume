@@ -424,6 +424,23 @@ General Class
 		width: 100%;
 	}
 }
+
+
+.skill1-area{	
+	@media #{$xs}{
+		padding-top: 50px;
+	}
+	@media #{$md}{ 
+		padding-top: 50px;
+	}
+	@media #{$xl}{ 
+		padding-top: 100px;
+	}
+	@media #{$desktop}{
+		padding-top: 100px;
+	}
+	
+}
 /*--
     - Margin & Padding
 -----------------------------------------*/

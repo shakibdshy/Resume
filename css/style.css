@@ -664,6 +664,22 @@ General Class
 .section-title-white p {
   width: 100%; }
 
+@media (max-width: 767px) {
+  .skill1-area {
+    padding-top: 50px; } }
+
+@media (min-width: 768px) {
+  .skill1-area {
+    padding-top: 50px; } }
+
+@media (min-width: 1200px) {
+  .skill1-area {
+    padding-top: 100px; } }
+
+@media (min-width: 1367px) {
+  .skill1-area {
+    padding-top: 100px; } }
+
 /*--
     - Margin & Padding
 -----------------------------------------*/
@@ -2245,6 +2261,23 @@ a.mobile-menu-opener {
     .percircle::before {
       width: 120px !important;
       height: 120px !important; } }
+
+/*----------------------Homepage 2-------------------------*/
+@media (max-width: 767px) {
+  .skill1-area p {
+    width: 100%; } }
+
+@media (min-width: 768px) {
+  .skill1-area p {
+    width: 100%; } }
+
+@media (min-width: 992px) {
+  .skill1-area p {
+    width: 80%; } }
+
+@media (min-width: 1200px) {
+  .skill1-area p {
+    width: 55%; } }
 
 /*----------------------------------------*/
 /*  06. Education Area
