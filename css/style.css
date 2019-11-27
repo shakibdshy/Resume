@@ -256,6 +256,15 @@ Version      : 1.0
     height: 530px;
     background-color: #F9CA2B;
     top: 50px; }
+  @media (max-width: 767px) {
+    .devider1 {
+      display: none; } }
+  @media (min-width: 768px) {
+    .devider1 {
+      display: none; } }
+  @media (min-width: 1200px) {
+    .devider1 {
+      display: block; } }
 
 .devider2 {
   position: relative; }
@@ -266,6 +275,15 @@ Version      : 1.0
     height: 648px;
     background-color: #F9CA2B;
     top: 50px; }
+  @media (max-width: 767px) {
+    .devider2 {
+      display: none; } }
+  @media (min-width: 768px) {
+    .devider2 {
+      display: none; } }
+  @media (min-width: 1200px) {
+    .devider2 {
+      display: block; } }
 
 /*----------------------------------------*/
 /*  01. Theme default CSS
@@ -2245,7 +2263,7 @@ a.mobile-menu-opener {
 .edu-date, .exp-date {
   color: #fff;
   font-size: 18px;
-  margin-right: 35px;
+  margin-right: 30px;
   margin-top: 30px;
   position: relative; }
   .edu-date::before, .exp-date::before {
@@ -2264,6 +2282,18 @@ a.mobile-menu-opener {
     background-color: #F9CA2B;
     top: 35px;
     left: -39px; }
+    @media (max-width: 767px) {
+      .edu-content::before,
+      .exp-content::before {
+        display: none; } }
+    @media (min-width: 768px) {
+      .edu-content::before,
+      .exp-content::before {
+        display: none; } }
+    @media (min-width: 1200px) {
+      .edu-content::before,
+      .exp-content::before {
+        display: block; } }
   .edu-content::after,
   .exp-content::after {
     position: absolute;
@@ -2273,6 +2303,18 @@ a.mobile-menu-opener {
     border: 1px solid #333333;
     top: 37px;
     left: -37px; }
+    @media (max-width: 767px) {
+      .edu-content::after,
+      .exp-content::after {
+        display: none; } }
+    @media (min-width: 768px) {
+      .edu-content::after,
+      .exp-content::after {
+        display: none; } }
+    @media (min-width: 1200px) {
+      .edu-content::after,
+      .exp-content::after {
+        display: block; } }
 
 .edu-content,
 .exp-content {

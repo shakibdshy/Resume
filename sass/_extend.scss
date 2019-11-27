@@ -49,6 +49,15 @@
         background-color: $yellow;
         top: 50px;
     }
+    @media #{$xs}{
+        display: none;
+    }
+    @media #{$md} {
+        display: none;
+    }
+    @media #{$xl} {
+        display: block;
+    }
 }
 %devider2{
     position: relative;
@@ -59,5 +68,14 @@
         height: 648px;
         background-color: $yellow;
         top: 50px;
+    }
+    @media #{$xs}{
+        display: none;
+    } 
+    @media #{$md}{
+        display: none;
+    }
+    @media #{$xl} {
+        display: block;
     }
 }
