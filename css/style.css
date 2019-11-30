@@ -1755,6 +1755,9 @@ a.mobile-menu-opener {
   @media (max-width: 767px) {
     .pt-page .section-inner {
       padding: 50px 0; } }
+  @media (min-width: 768px) {
+    .pt-page .section-inner {
+      padding: 50px 30px; } }
   @media (min-width: 1367px) {
     .pt-page .section-inner {
       padding: 150px 0; } }
@@ -1876,6 +1879,9 @@ a.mobile-menu-opener {
       color: #F9CA2B; }
     .sidebar-link nav li a img {
       margin-right: 10px; }
+    @media (max-width: 767px) {
+      .sidebar-link nav li a {
+        text-align: center; } }
     @media (min-width: 768px) {
       .sidebar-link nav li a {
         text-align: center; } }

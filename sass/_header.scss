@@ -79,6 +79,9 @@ a.mobile-menu-opener {
    @media #{$xs}{
       padding: 50px 0;
    }
+   @media #{$md}{
+      padding: 50px 30px;
+   }
    @media #{$desktop}{
       padding: 150px 0;
    }
@@ -213,6 +216,9 @@ a.mobile-menu-opener {
             }
             img{
                margin-right: 10px;
+            }
+            @media #{$xs} {
+               text-align: center;
             }
             @media #{$md} {
                text-align: center;
