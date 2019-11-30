@@ -2760,6 +2760,9 @@ a.mobile-menu-opener {
 
 .exp1 .section-title-white p {
   width: 65%; }
+  @media (max-width: 767px) {
+    .exp1 .section-title-white p {
+      width: 100%; } }
 
 @media (max-width: 767px) {
   .tech-skill {

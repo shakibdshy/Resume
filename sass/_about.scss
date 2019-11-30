@@ -768,6 +768,9 @@
    .section-title-white {
       p {
          width: 65%;
+         @media #{$xs} {
+            width: 100%;
+         }
       }
    }
 }
