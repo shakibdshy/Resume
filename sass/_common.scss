@@ -320,7 +320,12 @@ General Class
 	}
 }
 .content2{
-	margin-left: 142px;
+	@media #{$xs} {
+		margin-left: 0;
+	}
+	@media #{$md} {
+		margin-left: 142px;
+	}
 }
 .pt-wrapper {
 	position: relative;

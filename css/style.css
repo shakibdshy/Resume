@@ -572,8 +572,13 @@ General Class
     .content {
       margin-left: 336px; } }
 
-.content2 {
-  margin-left: 142px; }
+@media (max-width: 767px) {
+  .content2 {
+    margin-left: 0; } }
+
+@media (min-width: 768px) {
+  .content2 {
+    margin-left: 142px; } }
 
 .pt-wrapper {
   position: relative;
