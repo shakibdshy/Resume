@@ -2525,6 +2525,13 @@ a.mobile-menu-opener {
     .languages-area .section-title {
       margin-bottom: 5px; } }
 
+.my-progress-bar1 canvas,
+.my-progress-bar2 canvas,
+.my-progress-bar3 canvas,
+.my-progress-bar4 canvas {
+  width: 150px;
+  height: 150px; }
+
 @media (min-width: 992px) {
   .single-circle {
     margin-top: 8px; } }

@@ -520,6 +520,15 @@
       }
    }
 }
+.my-progress-bar1,
+.my-progress-bar2,
+.my-progress-bar3,
+.my-progress-bar4{
+   canvas{
+      width: 150px;
+      height: 150px;
+   }
+}
 .single-circle{
    @media #{$lg} {
       margin-top: 8px;

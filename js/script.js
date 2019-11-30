@@ -120,46 +120,46 @@ Version      : 1.0
 		$(".my-progress-bar1").circularProgress({		
 			width: "150px",
 			height: "150px",
-			line_width: 10,
+			line_width: 8,
 			color: "#F9CA2B", 
 			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
 			percent: 0, // percent starts from
 			percentage: true,
-			text: ""
-		}).circularProgress('animate', 85, 5000);
+			text: "",
+		}).circularProgress('animate', 80, 5000);
 		
 		$(".my-progress-bar2").circularProgress({	
 			width: "150px",
 			height: "150px",
-			line_width: 10,
+			line_width: 8,
 			color: "#F9CA2B", 
 			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
 			percent: 0, // percent starts from
 			percentage: true,
 			text: ""
-		}).circularProgress('animate', 85, 5000);
+		}).circularProgress('animate', 75, 5000);
 
 		$(".my-progress-bar3").circularProgress({		
 			width: "150px",
 			height: "150px",
-			line_width: 10,
+			line_width: 8,
 			color: "#F9CA2B", 
 			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
 			percent: 0, // percent starts from
 			percentage: true,
 			text: ""
-		}).circularProgress('animate', 85, 5000);
+		}).circularProgress('animate', 65, 5000);
 
 		$(".my-progress-bar4").circularProgress({	
 			width: "150px",
 			height: "150px",
-			line_width: 10,
+			line_width: 8,
 			color: "#F9CA2B", 
 			starting_position: 0, // 12.00 o' clock position, 25 stands for 3.00 o'clock (clock-wise)
 			percent: 0, // percent starts from
 			percentage: true,
 			text: ""
-		}).circularProgress('animate', 85, 5000);
+		}).circularProgress('animate', 70, 5000);
 
 		$(".my-progress-bar5").circularProgress({	
 			width: "250px",
@@ -170,7 +170,7 @@ Version      : 1.0
 			percent: 0, // percent starts from
 			percentage: true,
 			text: "Interface Design"
-		}).circularProgress('animate', 85, 5000);
+		}).circularProgress('animate', 95, 5000);
 
 		$(".my-progress-bar6").circularProgress({	
 			width: "250px",
@@ -192,7 +192,7 @@ Version      : 1.0
 			percent: 0, // percent starts from
 			percentage: true,
 			text: "Photography"
-		}).circularProgress('animate', 85, 5000);
+		}).circularProgress('animate', 75, 5000);
 
 		$(".my-progress-bar8").circularProgress({	
 			width: "250px",
@@ -203,8 +203,8 @@ Version      : 1.0
 			percent: 0, // percent starts from
 			percentage: true,
 			text: "Brainstorming"
-		}).circularProgress('animate', 85, 5000);
-
+		}).circularProgress('animate', 65, 5000);
+		
 	});
 
 
