@@ -419,6 +419,7 @@
    background: #2c2c2c;
    margin-bottom: 30px; 
    position: relative;
+   z-index: 99;
    &::before{
       position: absolute;
       content: "";
@@ -430,6 +431,8 @@
    }
    .edu1-left{
       display: block;
+      position: relative;
+      z-index: 99;
       .date{
          span{
             font-size: 32px;
@@ -455,10 +458,12 @@
          font-size: 120px;
          font-family: $lora;
          font-weight: 700;
-         opacity: 0.05;
          position: absolute;
          top: 70px;
-         left: 100px;
+         left: 50px;
+         visibility: hidden;
+         opacity: 0;
+         @include property;
       }
    }
    .edu1-right{
@@ -478,6 +483,14 @@
       p{
          font-family: $josefin;
          margin-bottom: 0;
+      }
+   }
+   &:hover{
+      .edu1-number{
+         visibility: visible;
+         opacity: 0.05;
+         left: 100px;
+         z-index: -1;
       }
    }
 }

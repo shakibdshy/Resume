@@ -2449,7 +2449,8 @@ a.mobile-menu-opener {
   padding: 30px;
   background: #2c2c2c;
   margin-bottom: 30px;
-  position: relative; }
+  position: relative;
+  z-index: 99; }
   .edu1-inner::before {
     position: absolute;
     content: "";
@@ -2459,7 +2460,9 @@ a.mobile-menu-opener {
     top: 0;
     left: 0; }
   .edu1-inner .edu1-left {
-    display: block; }
+    display: block;
+    position: relative;
+    z-index: 99; }
     .edu1-inner .edu1-left .date span {
       font-size: 32px;
       font-family: "Josefin Sans", sans-serif;
@@ -2480,10 +2483,14 @@ a.mobile-menu-opener {
       font-size: 120px;
       font-family: "Lora", serif;
       font-weight: 700;
-      opacity: 0.05;
       position: absolute;
       top: 70px;
-      left: 100px; }
+      left: 50px;
+      visibility: hidden;
+      opacity: 0;
+      -webkit-transition: 0.3s ease-out;
+      -o-transition: 0.3s ease-out;
+      transition: 0.3s ease-out; }
   .edu1-inner .edu1-right {
     margin-left: 30px; }
     .edu1-inner .edu1-right h4 {
@@ -2499,6 +2506,11 @@ a.mobile-menu-opener {
     .edu1-inner .edu1-right p {
       font-family: "Josefin Sans", sans-serif;
       margin-bottom: 0; }
+  .edu1-inner:hover .edu1-number {
+    visibility: visible;
+    opacity: 0.05;
+    left: 100px;
+    z-index: -1; }
 
 /*----------------------Homepage 2-------------------------*/
 @media (max-width: 767px) {
