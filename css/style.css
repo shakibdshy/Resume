@@ -2764,12 +2764,17 @@ a.mobile-menu-opener {
     font-family: "Josefin Sans", sans-serif;
     font-size: 14px;
     color: #9DA1A5;
-    margin-right: 30px;
     cursor: pointer;
     -webkit-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
     position: relative; }
+    @media (min-width: 768px) {
+      .portfolio-menu li {
+        margin-right: 3px; } }
+    @media (min-width: 992px) {
+      .portfolio-menu li {
+        margin-right: 30px; } }
     .portfolio-menu li::before {
       position: absolute;
       content: '';

@@ -8,10 +8,15 @@
       font-family: $josefin;
       font-size: 14px;
       color: #9DA1A5;
-      margin-right: 30px;
       cursor: pointer;
       @include property;
-      position: relative;      
+      position: relative;    
+      @media #{$md}{
+         margin-right: 3px;
+      }
+      @media #{$lg}{
+         margin-right: 30px;
+      }
       &::before{
          position: absolute;
          content: '';
