@@ -85,6 +85,9 @@
       @include property;
       opacity: 0;
       visibility: hidden;
+      @media #{$xs}{
+         display: none;
+      }
       @media #{$desktop}{
          top: 130px;
       }
@@ -100,6 +103,9 @@
 }
 
 .about-content1 {
+   @media #{$xs} {
+      margin-top: 23px;
+   }
    h3 {
       font-family: $lora;
       color: $white;

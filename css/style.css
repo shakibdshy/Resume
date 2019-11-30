@@ -2141,6 +2141,9 @@ a.mobile-menu-opener {
     transition: 0.3s ease-out;
     opacity: 0;
     visibility: hidden; }
+    @media (max-width: 767px) {
+      .about-author1-image::before {
+        display: none; } }
     @media (min-width: 1367px) {
       .about-author1-image::before {
         top: 130px; } }
@@ -2149,6 +2152,10 @@ a.mobile-menu-opener {
     visibility: visible;
     left: -30px;
     top: 110px; }
+
+@media (max-width: 767px) {
+  .about-content1 {
+    margin-top: 23px; } }
 
 .about-content1 h3 {
   font-family: "Lora", serif;
