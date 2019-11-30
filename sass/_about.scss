@@ -767,9 +767,14 @@
    }
    .section-title-white {
       p {
-         width: 65%;
          @media #{$xs} {
             width: 100%;
+         }
+         @media #{$md} {
+            width: 100%;
+         }
+         @media #{$lg} {
+            width: 65%;
          }
       }
    }
