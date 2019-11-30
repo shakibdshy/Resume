@@ -666,25 +666,10 @@
 
 .single-circle {
    &.myskill {
-      .progress-percentage{
-         font-size: 46px;
-         transform: translate(-50%, -100%);
-         -webkit-transform: translate(-50%, -100%);
-         -moz-transform: translate(-50%, -100%);
-         -ms-transform: translate(-50%, -100%);
-         -o-transform: translate(-50%, -100%);
-}
-      .progress-text{
-         font-size: 18px;
-         font-family: $lora;
-         color: #C9CBCE;
-         padding: 0;
-         transform: translate(-50%, 70%);
-         -webkit-transform: translate(-50%, 70%);
-         -moz-transform: translate(-50%, 70%);
-         -ms-transform: translate(-50%, 70%);
-         -o-transform: translate(-50%, 70%);
-}
+      margin-top: 20px;
+      .loader {
+         left: 0;
+      }
    }
 }
 

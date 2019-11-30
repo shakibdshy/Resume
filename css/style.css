@@ -2655,24 +2655,10 @@ a.mobile-menu-opener {
       font-weight: 400;
       padding-top: 10px; }
 
-.single-circle.myskill .progress-percentage {
-  font-size: 46px;
-  transform: translate(-50%, -100%);
-  -webkit-transform: translate(-50%, -100%);
-  -moz-transform: translate(-50%, -100%);
-  -ms-transform: translate(-50%, -100%);
-  -o-transform: translate(-50%, -100%); }
-
-.single-circle.myskill .progress-text {
-  font-size: 18px;
-  font-family: "Lora", serif;
-  color: #C9CBCE;
-  padding: 0;
-  transform: translate(-50%, 70%);
-  -webkit-transform: translate(-50%, 70%);
-  -moz-transform: translate(-50%, 70%);
-  -ms-transform: translate(-50%, 70%);
-  -o-transform: translate(-50%, 70%); }
+.single-circle.myskill {
+  margin-top: 20px; }
+  .single-circle.myskill .loader {
+    left: 0; }
 
 .exp1-inner {
   display: -webkit-box;
