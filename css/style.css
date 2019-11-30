@@ -1752,6 +1752,9 @@ a.mobile-menu-opener {
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -ms-transform: none; }
+  @media (max-width: 767px) {
+    .pt-page .section-inner {
+      padding: 50px 0; } }
   @media (min-width: 1367px) {
     .pt-page .section-inner {
       padding: 150px 0; } }
@@ -2527,6 +2530,11 @@ a.mobile-menu-opener {
 
 .loader {
   left: 25px; }
+  @media (max-width: 767px) {
+    .loader {
+      left: 0;
+      float: none;
+      margin: auto; } }
 
 .loader-bg {
   border: 5px solid #F9CA2B; }
@@ -2655,7 +2663,7 @@ a.mobile-menu-opener {
       font-weight: 400;
       padding-top: 10px; }
 
-.single-circle.myskill {
+.single-circle {
   margin-top: 20px; }
   .single-circle.myskill .loader {
     left: 0; }

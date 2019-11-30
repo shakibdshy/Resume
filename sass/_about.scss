@@ -522,6 +522,11 @@
 }
 .loader{
    left: 25px;
+   @media #{$xs} {
+      left: 0;
+      float: none;
+      margin: auto;
+   }
 }
 .loader-bg{
    border: 5px solid $yellow;
@@ -665,8 +670,8 @@
 }
 
 .single-circle {
+   margin-top: 20px;
    &.myskill {
-      margin-top: 20px;
       .loader {
          left: 0;
       }
