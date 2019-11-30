@@ -559,15 +559,6 @@
       margin-top: 0;
    }
 }
-.progress-percentage {
-   font-size: 18px;
-   transform: translate(-50%, -50%);
-   color: #fff;
-   -webkit-transform: translate(-50%, -50%);
-   -moz-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   -o-transform: translate(-50%, -50%);
-}
 .lang-name{
    text-align: center;
    a{
@@ -696,6 +687,14 @@
    background: #2c2c2c;
    padding: 30px;
    margin-bottom: 30px;
+   &:hover{
+      .exp1-number{
+         opacity: 0.05;
+         visibility: visible;
+         top: 50%;
+      }
+
+   }
 }
 .exp1-icon{
    position: relative;
@@ -711,9 +710,11 @@
       font-family: $lora;
       font-weight: 700;
       color: $white;
-      opacity: 0.05;
+      opacity: 0;
       position: absolute;
-      top: 50%;
+      top: 0;
+      visibility: hidden;
+      @include property;
    }
 }
 .exp1-content{

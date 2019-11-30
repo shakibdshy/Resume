@@ -2571,15 +2571,6 @@ a.mobile-menu-opener {
   .single-circle {
     margin-top: 0; } }
 
-.progress-percentage {
-  font-size: 18px;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%); }
-
 .lang-name {
   text-align: center; }
   .lang-name a {
@@ -2693,6 +2684,10 @@ a.mobile-menu-opener {
   background: #2c2c2c;
   padding: 30px;
   margin-bottom: 30px; }
+  .exp1-inner:hover .exp1-number {
+    opacity: 0.05;
+    visibility: visible;
+    top: 50%; }
 
 .exp1-icon {
   position: relative; }
@@ -2706,9 +2701,13 @@ a.mobile-menu-opener {
     font-family: "Lora", serif;
     font-weight: 700;
     color: #fff;
-    opacity: 0.05;
+    opacity: 0;
     position: absolute;
-    top: 50%; }
+    top: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
 
 .exp1-content {
   margin-left: 30px; }
