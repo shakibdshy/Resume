@@ -507,6 +507,12 @@ label {
 .white-color {
   color: #fff; }
 
+.bg-light {
+  background-color: #fcfcfc; }
+
+.light-color {
+  color: #333333 !important; }
+
 /*--------------------------------------
 	- Button
 ----------------------------------------*/

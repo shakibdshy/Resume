@@ -239,9 +239,12 @@ label {
 .white-color{
 	color: $white;
 }
-// .primary-color {
-// 	color: #222;
-// }
+.bg-light{
+	background-color: $light;
+}
+.light-color{
+	color: $black !important;
+}
 
 
 /*--------------------------------------
