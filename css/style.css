@@ -2122,7 +2122,9 @@ a.mobile-menu-opener {
       display: block; } }
 
 .mCSB_6_scrollbar,
-.mCSB_7_scrollbar {
+.mCSB_7_scrollbar,
+.mCSB_8_scrollbar,
+.mCSB_9_scrollbar {
   display: none !important; }
 
 /*----------------------------------------*/
