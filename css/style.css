@@ -2026,6 +2026,9 @@ a.mobile-menu-opener {
 .sidebar-s-link .social-top a,
 .sidebar-s-link .social-bottom a {
   padding: 5px 10px; }
+  .sidebar-s-link .social-top a:hover,
+  .sidebar-s-link .social-bottom a:hover {
+    color: #F9CA2B; }
 
 .social-top {
   position: relative; }
