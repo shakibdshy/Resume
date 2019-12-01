@@ -1963,6 +1963,9 @@ a.mobile-menu-opener {
     bottom: 0;
     margin: auto; }
 
+.sidebar-link nav.light-nav a {
+  color: #333333; }
+
 .sidebar-s-link {
   text-align: center;
   margin-bottom: 35px; }

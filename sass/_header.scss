@@ -249,6 +249,11 @@ a.mobile-menu-opener {
             margin: auto;
          }
       }
+      &.light-nav{
+         a{
+            color: $black;
+         }
+      }
    }
 }
 
