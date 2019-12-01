@@ -1934,12 +1934,6 @@ a.mobile-menu-opener {
       color: #F9CA2B; }
     .sidebar-link nav li a img {
       margin-right: 10px; }
-    @media (max-width: 767px) {
-      .sidebar-link nav li a {
-        text-align: center; } }
-    @media (min-width: 768px) {
-      .sidebar-link nav li a {
-        text-align: center; } }
   .sidebar-link nav li::before {
     position: absolute;
     content: '';

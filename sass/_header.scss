@@ -217,12 +217,6 @@ a.mobile-menu-opener {
             img{
                margin-right: 10px;
             }
-            @media #{$xs} {
-               text-align: center;
-            }
-            @media #{$md} {
-               text-align: center;
-            }
          }
          &::before{
             position: absolute;
