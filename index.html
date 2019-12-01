@@ -708,10 +708,11 @@
                               </div>
                               <div class="col-lg-8 col-xl-9">
                                  <div class="contact-form">
-                                    <form action="#">
-                                       <input type="text" placeholder="Name">
-                                       <input type="text" placeholder="Email Address">
-                                       <textarea rows="5" placeholder="Message Type Here"></textarea>
+                                    <form action="contact_process.php" method="post" id="contactForm"
+                                       novalidate="novalidate">
+                                       <input type="text" id="name" placeholder="Name">
+                                       <input type="text" id="email" placeholder="Email Address">
+                                       <textarea id="message" rows="5" placeholder="Message Type Here"></textarea>
                                        <button type="submit" class="btn btn-1c btn-border">Send Message</button>
                                     </form>
                                  </div>

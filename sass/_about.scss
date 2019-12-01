@@ -554,6 +554,16 @@
 .loader-bg{
    border: 5px solid $yellow;
 }
+.myskill{
+   .loader-bg{
+      display: block; 
+      text-align: center;
+      padding-top: 80px;
+      .circle-text{
+         margin-top: 15px;
+      }
+   }
+}
 .loader-spinner{
    border: 5px solid $text-color;
 }

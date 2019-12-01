@@ -2614,6 +2614,13 @@ a.mobile-menu-opener {
 .loader-bg {
   border: 5px solid #F9CA2B; }
 
+.myskill .loader-bg {
+  display: block;
+  text-align: center;
+  padding-top: 80px; }
+  .myskill .loader-bg .circle-text {
+    margin-top: 15px; }
+
 .loader-spinner {
   border: 5px solid #6A6B70; }
 
