@@ -83,7 +83,7 @@ a.mobile-menu-opener {
       padding: 50px 30px;
    }
    @media #{$desktop}{
-      padding: 150px 0;
+      padding: 150px 0 !important;
    }
 }
 

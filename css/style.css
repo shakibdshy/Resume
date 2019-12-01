@@ -1815,7 +1815,7 @@ a.mobile-menu-opener {
       padding: 50px 30px; } }
   @media (min-width: 1367px) {
     .pt-page .section-inner {
-      padding: 150px 0; } }
+      padding: 150px 0 !important; } }
 
 @media (min-width: 1200px) {
   .start-page-full-width {
@@ -2429,10 +2429,8 @@ a.mobile-menu-opener {
       margin-right: 30px;
       margin-top: 30px; } }
 
-.edu-content,
 .exp-content {
   position: relative; }
-  .edu-content::before,
   .exp-content::before {
     position: absolute;
     content: "";
@@ -2442,18 +2440,14 @@ a.mobile-menu-opener {
     top: 35px;
     left: -39px; }
     @media (max-width: 767px) {
-      .edu-content::before,
       .exp-content::before {
         display: none; } }
     @media (min-width: 768px) {
-      .edu-content::before,
       .exp-content::before {
         display: none; } }
     @media (min-width: 1200px) {
-      .edu-content::before,
       .exp-content::before {
         display: block; } }
-  .edu-content::after,
   .exp-content::after {
     position: absolute;
     content: "";
@@ -2463,34 +2457,27 @@ a.mobile-menu-opener {
     top: 37px;
     left: -37px; }
     @media (max-width: 767px) {
-      .edu-content::after,
       .exp-content::after {
         display: none; } }
     @media (min-width: 768px) {
-      .edu-content::after,
       .exp-content::after {
         display: none; } }
     @media (min-width: 1200px) {
-      .edu-content::after,
       .exp-content::after {
         display: block; } }
 
-.edu-content,
-.exp-content {
+.edu-content, .exp-content {
   border: 1px solid #6A6B70;
   padding: 30px;
   margin-bottom: 30px; }
   @media (max-width: 767px) {
-    .edu-content,
-    .exp-content {
+    .edu-content, .exp-content {
       margin-left: 0; } }
   @media (min-width: 768px) {
-    .edu-content,
-    .exp-content {
+    .edu-content, .exp-content {
       margin-left: 0; } }
   @media (min-width: 1200px) {
-    .edu-content,
-    .exp-content {
+    .edu-content, .exp-content {
       margin-left: 30px; } }
   .edu-content h4, .exp-content h4 {
     color: #F9CA2B;
@@ -2611,6 +2598,11 @@ a.mobile-menu-opener {
 .loader {
   left: 25px; }
   @media (max-width: 767px) {
+    .loader {
+      left: 0;
+      float: none;
+      margin: auto; } }
+  @media (min-width: 1200px) {
     .loader {
       left: 0;
       float: none;

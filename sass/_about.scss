@@ -350,7 +350,6 @@
 .devider2 {
    @extend %devider2;
 }
-.edu-content,
 .exp-content {
    position: relative;
    &::before{
@@ -542,6 +541,11 @@
 .loader{
    left: 25px;
    @media #{$xs} {
+      left: 0;
+      float: none;
+      margin: auto;
+   }
+   @media #{$xl} {
       left: 0;
       float: none;
       margin: auto;
