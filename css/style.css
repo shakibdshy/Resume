@@ -1977,7 +1977,10 @@ a.mobile-menu-opener {
 .header2 {
   width: 142px;
   position: relative;
-  z-index: 999; }
+  z-index: 999;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
   .header2 .sidebar-link {
     padding-left: 0px;
     padding-right: 0px;
@@ -2011,7 +2014,11 @@ a.mobile-menu-opener {
       .header2 nav li a img {
         width: 22px;
         height: 22px;
-        margin-right: 0; }
+        margin-right: 0;
+        position: relative; }
+      .header2 nav li a span {
+        opacity: 0;
+        visibility: hidden; }
       .header2 nav li a:hover {
         border-color: #F9CA2B; }
     .header2 nav li::before {
@@ -2022,6 +2029,42 @@ a.mobile-menu-opener {
       width: 0;
       height: 0;
       background: transparent; }
+  .header2:hover {
+    width: 336px; }
+    .header2:hover .sidebar-link {
+      padding-left: 70px;
+      padding-right: 70px; }
+    .header2:hover nav li {
+      margin-bottom: 20px; }
+      .header2:hover nav li a {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        text-align: left;
+        border: none;
+        border-radius: 100%; }
+        .header2:hover nav li a::before {
+          position: absolute;
+          content: "";
+          width: 42px;
+          height: 42px;
+          top: -2px;
+          left: 0;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          border: 1px solid #333333;
+          -webkit-transition: 0.3s ease-out;
+          -o-transition: 0.3s ease-out;
+          transition: 0.3s ease-out; }
+        .header2:hover nav li a img {
+          margin-left: 5px; }
+        .header2:hover nav li a span {
+          opacity: 1;
+          visibility: visible;
+          padding-left: 15px; }
 
 .sidebar-s-link .social-top a,
 .sidebar-s-link .social-bottom a {
