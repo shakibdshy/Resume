@@ -41,20 +41,20 @@
             <nav id="navbar">
                <ul class="nav navbar-nav">
                   <li class="active">
-                     <a class="pt-trigger" href="javascript:void(0);" data-id="#about-me"><img
-                           src="img/icon/menu-icon1.svg" alt="Icon"> <span>About Me</span></a>
+                     <a data-toggle="tooltip" data-placement="right" title="About Me" class="pt-trigger" href="javascript:void(0);" data-id="#about-me"><img
+                           src="img/icon/menu-icon1.svg" alt="Icon"></a>
                   </li>
                   <li>
-                     <a class="pt-trigger" href="javascript:void(0);" data-id="#portfolio"><img
-                           src="img/icon/menu-icon2.svg" alt="Icon"> <span>Portfolio</span></a>
+                     <a data-toggle="tooltip" data-placement="right" title="Portfolio" class="pt-trigger" href="javascript:void(0);" data-id="#portfolio"><img
+                           src="img/icon/menu-icon2.svg" alt="Icon"></a>
                   </li>
                   <li>
-                     <a class="pt-trigger" href="javascript:void(0);" data-id="#service"><img
-                           src="img/icon/menu-icon3.svg" alt="Icon"> <span>Service</span></a>
+                     <a data-toggle="tooltip" data-placement="right" title="Service" class="pt-trigger" href="javascript:void(0);" data-id="#service"><img
+                           src="img/icon/menu-icon3.svg" alt="Icon"></a>
                   </li>
                   <li>
-                     <a class="pt-trigger" href="javascript:void(0);" data-id="#contact"><img
-                           src="img/icon/menu-icon4.svg" alt="Icon"> <span>Contact</span></a>
+                     <a data-toggle="tooltip" data-placement="right" title="Contact" class="pt-trigger" href="javascript:void(0);" data-id="#contact"><img
+                           src="img/icon/menu-icon4.svg" alt="Icon"></a>
                   </li>
                </ul>
             </nav> 
@@ -611,7 +611,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon1.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">Architecture</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -625,7 +625,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon2.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">Interior design</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -639,7 +639,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon3.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">Exterior design</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -653,7 +653,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon4.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">Structure Drawing</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -667,7 +667,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon5.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">Building Plan</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -681,7 +681,7 @@
                               <!--Service Box-->
                               <div class="service-box">
                                  <div class="service-icon">
-                                    <img src="img/icon/Group 3714.svg" alt="">
+                                    <img src="img/icon/service-icon6.svg" alt="Icon">
                                  </div>
                                  <h4 class="title">civil engineering</h4>
                                  <p>Lorem ipsum dolor sit amet, consect tuiscing elit. Mauris vitae undas sodales
@@ -755,12 +755,13 @@
                            </div>
                            <div class="col-lg-6">
                               <div class="contact-form">
-                                 <form action="#">
-                                    <input type="text" placeholder="Name*" required>
-                                    <input type="text" placeholder="Email Address*" required>
-                                    <input type="text" placeholder="Subject" required>
-                                    <textarea rows="5" placeholder="Message Type Here" required></textarea>
-                                    <button type="submit" class="btn btn-border">Send Message</button>
+                                 <form action="contactForm.php" method="POST">
+                                    <input type="text" name="name" placeholder="Name*" required>
+                                    <input type="text" name="email" placeholder="Email Address*" required>
+                                    <input type="text" name="subject" placeholder="Subject">
+                                    <textarea rows="5" name="message" placeholder="Message Type Here"
+                                       required></textarea>
+                                    <button type="submit" name="submit" class="btn btn-border">Send Message</button>
                                  </form>
                               </div>
                            </div>
@@ -796,11 +797,8 @@
    <!-- Bootstrap js -->
    <script src="js/bootstrap.min.js"></script>
    <!-- Contact js -->
-   <script src="js/contact.js"></script>
    <!-- gmaps js -->
    <script src="js/gmaps.min.js"></script>
-   <!-- Google Maps Api js -->
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB13ZAvCezMx5TETYIiGlzVIq65Mc2FG5g"></script>
    <!-- Modernizr js -->
    <script src="js/modernizr.custom.js"></script>
    <!-- Pagetransition js -->
@@ -813,8 +811,6 @@
    <script src="js/isotope.pkgd.min.js"></script>
    <!-- BerFiller js -->
    <script src="js/jquery.barfiller.js"></script>
-   <!-- Google API js -->
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
    <!-- Main js -->
    <script src="js/script.js"></script>
 </body>

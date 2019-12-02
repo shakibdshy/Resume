@@ -708,12 +708,12 @@
                               </div>
                               <div class="col-lg-8 col-xl-9">
                                  <div class="contact-form">
-                                    <form action="contact_process.php" method="post" id="contactForm"
-                                       novalidate="novalidate">
-                                       <input type="text" id="name" placeholder="Name">
-                                       <input type="text" id="email" placeholder="Email Address">
-                                       <textarea id="message" rows="5" placeholder="Message Type Here"></textarea>
-                                       <button type="submit" class="btn btn-1c btn-border">Send Message</button>
+                                    <form action="contactForm.php" method="POST">
+                                       <input type="text" name="name" placeholder="Name">
+                                       <input type="text" name="email" placeholder="Email Address">
+                                       <textarea name="message" rows="5" placeholder="Message Type Here"></textarea>
+                                       <button type="submit" name="submit" class="btn btn-1c btn-border">Send
+                                          Message</button>
                                     </form>
                                  </div>
                               </div>
@@ -748,11 +748,7 @@
    <script src="js/bootstrap.min.js"></script>
    <!-- Contact js -->
    <script src="js/contact.js"></script>
-   <!-- gmaps js -->
-   <script src="js/gmaps.min.js"></script>
-   <!-- Google Maps Api js -->
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB13ZAvCezMx5TETYIiGlzVIq65Mc2FG5g"></script>
-   <!-- Modernizr js -->
+`  <!-- Modernizr js -->
    <script src="js/modernizr.custom.js"></script>
    <!-- Pagetransition js -->
    <script src="js/pagetransitions.js"></script>

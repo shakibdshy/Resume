@@ -316,11 +316,6 @@ a.mobile-menu-opener {
                width: 22px;
                height: 22px;
                margin-right: 0;
-               position: relative;
-            }
-            span{
-               opacity: 0;
-               visibility: hidden;
             }
             &:hover{
                border-color: $yellow;
@@ -337,55 +332,6 @@ a.mobile-menu-opener {
             height: 0;
             background: transparent;
          }
-      }
-   }
-   &:hover{
-      width: 336px;
-      .sidebar-link{
-         padding-left: 70px;
-         padding-right: 70px;
-      }
-      nav{
-         li{
-            margin-bottom: 20px;
-            a{
-               width: 100%;
-               height: 100%;
-               margin: 0;
-               text-align: left;
-               border: none;
-               &::before {
-                  position: absolute;
-                  content: "";
-                  width: 42px;
-                  height: 42px;
-                  top: -2px;
-                  left: 0;
-                  border-radius: 50%;
-                  -webkit-border-radius: 50%;
-                  -moz-border-radius: 50%;
-                  -ms-border-radius: 50%;
-                  -o-border-radius: 50%;
-                  border: 1px solid $black;
-                  @include property;
-               }
-               border-radius: 100%;
-               img{
-                  margin-left: 5px;
-               }
-               span{
-                  opacity: 1;
-                  visibility: visible;
-                  padding-left: 15px;
-               }
-            }
-         }
-      }
-      .social-bottom::before{
-         left: 95px;
-      }
-      .social-top::before{
-         left: 79px;
       }
    }
 }
