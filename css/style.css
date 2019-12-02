@@ -589,8 +589,8 @@ label {
 
 .btn-1d:hover,
 .btn-1d:active {
-  color: #fff;
-  background-color: #6A6B70; }
+  color: #333333;
+  background-color: #F9CA2B; }
 
 .btn-1d:hover:after {
   width: 90%;
@@ -3018,6 +3018,10 @@ a.mobile-menu-opener {
     color: #F9CA2B;
     margin-bottom: 10px;
     font-size: 22px; }
+
+#contact-map {
+  width: 100%;
+  min-height: 100%; }
 
 footer {
   padding: 0 50px;
