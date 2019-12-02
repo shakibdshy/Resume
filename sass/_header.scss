@@ -381,6 +381,12 @@ a.mobile-menu-opener {
             }
          }
       }
+      .social-bottom::before{
+         left: 95px;
+      }
+      .social-top::before{
+         left: 79px;
+      }
    }
 }
 .sidebar-s-link .social-top,

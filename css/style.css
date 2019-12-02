@@ -2065,6 +2065,10 @@ a.mobile-menu-opener {
           opacity: 1;
           visibility: visible;
           padding-left: 15px; }
+    .header2:hover .social-bottom::before {
+      left: 95px; }
+    .header2:hover .social-top::before {
+      left: 79px; }
 
 .sidebar-s-link .social-top a,
 .sidebar-s-link .social-bottom a {
