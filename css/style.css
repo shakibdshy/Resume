@@ -2844,6 +2844,10 @@ a.mobile-menu-opener {
 /*----------------------------------------*/
 /*  10. Header Area
 /*----------------------------------------*/
+#portfolio .section-inner {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
 .portfolio-menu {
   margin-bottom: 40px; }
   .portfolio-menu li {
@@ -2943,6 +2947,38 @@ a.mobile-menu-opener {
   color: #fff;
   font-size: 20px;
   margin-bottom: 10px; }
+
+.single-portfolio2 {
+  position: relative; }
+  .single-portfolio2 .portfolio2-content {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
+    .single-portfolio2 .portfolio2-content span {
+      background-color: #F9CA2B;
+      color: #333333;
+      padding: 5px 15px;
+      font-family: "Lora", serif;
+      font-weight: 600;
+      margin-bottom: 5px;
+      display: inline-block; }
+    .single-portfolio2 .portfolio2-content h4 {
+      background-color: #F9CA2B;
+      color: #333333;
+      padding: 10px 15px;
+      font-size: 22px;
+      font-family: "Lora", serif;
+      font-weight: 600; }
+  .single-portfolio2:hover .portfolio2-content {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+    left: 30px; }
 
 /*----------------------------------------*/
 /*  11. Service Area

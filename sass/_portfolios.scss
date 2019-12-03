@@ -1,6 +1,12 @@
 /*----------------------------------------*/
 /*  10. Header Area
 /*----------------------------------------*/
+#portfolio {
+   .section-inner {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+   }
+}
 .portfolio-menu{
    margin-bottom: 40px;
    li{
@@ -99,3 +105,44 @@
    font-size: 20px;
    margin-bottom: 10px;
 }
+
+.single-portfolio2{
+   position: relative;
+   .portfolio2-content{
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+      opacity: 0;
+      visibility: hidden;
+      @include property;
+      span{
+         background-color: $yellow;
+         color: $black;
+         padding: 5px 15px;
+         font-family: $lora;
+         font-weight: 600;
+         margin-bottom: 5px;
+         display: inline-block;
+      }
+      h4{
+         background-color: $yellow;
+         color: $black;
+         padding: 10px 15px;
+         font-size: 22px;
+         font-family: $lora;
+         font-weight: 600;
+      }
+   }
+   &:hover{
+      .portfolio2-content{
+         opacity: 1;
+         visibility: visible;
+         bottom: 30px;
+         left: 30px;
+      }
+   }
+}
+
+
+
+
