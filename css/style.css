@@ -498,6 +498,9 @@ label {
 .theme-bg {
   background: #333333; }
 
+.bg-darks {
+  background: #1C1D22; }
+
 /*--
     - color
 -----------------------------------------*/
@@ -2901,6 +2904,9 @@ a.mobile-menu-opener {
       font-family: "Josefin Sans", sans-serif;
       margin-bottom: 0;
       margin-top: 10px; }
+    .m-edu .content .company {
+      font-weight: 700;
+      text-transform: uppercase; }
 
 @media (min-width: 992px) {
   .m-circle {
