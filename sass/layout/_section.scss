@@ -1,0 +1,30 @@
+.section{
+    h3{
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            font-family: $josefin;
+            i{
+                color: $yellow;
+                margin-right: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+    .content-intro{
+        margin-bottom: 0;
+        @media #{$xs} {
+            width: 100%;
+        }
+        @media #{$md} {
+            width: 100%;
+        }
+        @media #{$xl} {
+            width: 64%;
+        }
+    }
+}

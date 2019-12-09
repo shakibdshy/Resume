@@ -1,0 +1,26 @@
+.m-circle{
+    @media #{$lg} {
+        margin-top: 8px;
+    }
+    
+    @media #{$xl} {
+        margin-top: 0;
+    }
+}
+.lang-name{
+    text-align: center;
+    a{
+        font-size: 18px;
+        font-family: $josefin;
+        border: 1px solid #3F3F42;
+        background-color: $header-color;
+        padding: 10px 20px;
+        margin-top: 20px;
+        display: inline-block;
+        @include property();
+        &:hover{
+            background-color: $yellow;
+            color: $black;
+        }
+    }
+}

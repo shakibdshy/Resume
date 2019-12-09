@@ -501,6 +501,12 @@ label {
 /*--
     - color
 -----------------------------------------*/
+.color-yellow {
+  color: #F9CA2B; }
+
+.text-color {
+  color: #6A6B70; }
+
 .theme-color {
   color: #333333; }
 
@@ -2273,22 +2279,6 @@ a.mobile-menu-opener {
   .skill-area {
     padding-top: 77px; } }
 
-@media (max-width: 767px) {
-  .skill-area p {
-    width: 100%; } }
-
-@media (min-width: 768px) {
-  .skill-area p {
-    width: 100%; } }
-
-@media (min-width: 992px) {
-  .skill-area p {
-    width: 80%; } }
-
-@media (min-width: 1200px) {
-  .skill-area p {
-    width: 55%; } }
-
 #skill10 {
   margin-bottom: 0; }
 
@@ -2384,15 +2374,6 @@ a.mobile-menu-opener {
   @media (max-width: 767px) {
     .education-area .section-title {
       margin-bottom: 0; } }
-  @media (max-width: 767px) {
-    .education-area p {
-      width: 100%; } }
-  @media (min-width: 768px) {
-    .education-area p {
-      width: 100%; } }
-  @media (min-width: 1200px) {
-    .education-area p {
-      width: 64%; } }
 
 .edu-inner,
 .exp-inner {
@@ -2840,6 +2821,111 @@ a.mobile-menu-opener {
 @media (min-width: 1200px) {
   .tech-skill {
     padding-top: 65px; } }
+
+.section h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.section ul {
+  margin: 0;
+  padding: 0; }
+  .section ul li {
+    font-family: "Josefin Sans", sans-serif; }
+    .section ul li i {
+      color: #F9CA2B;
+      margin-right: 10px;
+      font-size: 12px; }
+
+.section .content-intro {
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .section .content-intro {
+      width: 100%; } }
+  @media (min-width: 768px) {
+    .section .content-intro {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    .section .content-intro {
+      width: 64%; } }
+
+.m-edu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 767px) {
+    .m-edu {
+      display: block; } }
+  @media (min-width: 768px) {
+    .m-edu {
+      display: block; } }
+  @media (min-width: 1200px) {
+    .m-edu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
+  .m-edu .date {
+    font-size: 18px;
+    position: relative; }
+    .m-edu .date::before {
+      position: absolute;
+      content: ''; }
+    @media (max-width: 767px) {
+      .m-edu .date {
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 30px; } }
+    @media (min-width: 768px) {
+      .m-edu .date {
+        margin-right: 0;
+        margin-bottom: 30px; } }
+    @media (min-width: 1200px) {
+      .m-edu .date {
+        margin-right: 30px;
+        margin-top: 30px; } }
+  .m-edu .content {
+    border: 1px solid #6A6B70;
+    padding: 30px;
+    margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .m-edu .content {
+        margin-left: 0; } }
+    @media (min-width: 768px) {
+      .m-edu .content {
+        margin-left: 0; } }
+    @media (min-width: 1200px) {
+      .m-edu .content {
+        margin-left: 30px; } }
+    .m-edu .content h4 {
+      font-size: 22px; }
+    .m-edu .content p {
+      font-family: "Josefin Sans", sans-serif;
+      margin-bottom: 0;
+      margin-top: 10px; }
+
+@media (min-width: 992px) {
+  .m-circle {
+    margin-top: 8px; } }
+
+@media (min-width: 1200px) {
+  .m-circle {
+    margin-top: 0; } }
+
+.lang-name {
+  text-align: center; }
+  .lang-name a {
+    font-size: 18px;
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid #3F3F42;
+    background-color: #1C1D22;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out; }
+    .lang-name a:hover {
+      background-color: #F9CA2B;
+      color: #333333; }
 
 /*----------------------------------------*/
 /*  10. Header Area

@@ -232,13 +232,19 @@ label {
 /*--
     - color
 -----------------------------------------*/
-
+.color-yellow{
+	color: $yellow;
+}
+.text-color{
+	color: $text-color;
+}
 .theme-color {
 	color: $black;
 }
 .white-color{
 	color: $white;
 }
+
 .bg-light{
 	background-color: $light;
 }

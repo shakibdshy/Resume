@@ -175,20 +175,6 @@
    @media #{$desktop} {
       padding-top: 77px;
    }
-   p{
-      @media #{$xs} {
-         width: 100%;
-      }
-      @media #{$md} {
-         width: 100%;
-      }
-      @media #{$lg} {
-         width: 80%;
-      }
-      @media #{$xl}{
-         width: 55%;
-      }
-   } 
 }
 #skill10{
    margin-bottom: 0; 
@@ -294,17 +280,6 @@
    .section-title{
       @media #{$xs}{
          margin-bottom: 0;
-      }
-   }
-   p{
-      @media #{$xs}{
-         width: 100%;
-      }
-      @media #{$md}{
-         width: 100%;
-      }
-      @media #{$xl}{
-         width: 64%;
       }
    }
 }
